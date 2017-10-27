@@ -1,0 +1,6 @@
+
+Declaración de Enumeradores en TypeScript
+  
+  enum Categoria { Java, PHP, Python }
+
+Nota: Los enum solo son parte de TypeScript, no Javascript

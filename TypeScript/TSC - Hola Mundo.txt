@@ -1,0 +1,6 @@
+
+// Hola Mundo en TypeScript
+
+let sx = "Hola Sixto";
+
+document.getElementById("result").innerHTML = sx;

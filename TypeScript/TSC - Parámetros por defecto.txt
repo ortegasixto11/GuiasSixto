@@ -1,0 +1,8 @@
+
+Parametros por defectos en TypeScript
+
+  function saludar(nombre: string, edad?: number, ciudad?: string = "Ninguna"){
+    console.log(nombre + edad);
+  }
+
+Con este parámetro adicional que no sea requerido, se le añade el signo de ?

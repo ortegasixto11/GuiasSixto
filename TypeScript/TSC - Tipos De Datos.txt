@@ -1,0 +1,14 @@
+
+// Tipos de Variables en TypeScript
+
+let sx:string = "Sixto";  // Cadena de texto
+let sx:number = 55;       // Numeros
+let sx:boolean = true;    // Booleanos
+let sx:Array<string> = ['Java', 'PHP'];  // Arreglo
+
+let sx:any = 'Cualquiera';  // :any Admite cualquier valor en la variable
+
+// Retornar valores en funciones
+function (num:number):number{
+    return num
+}

@@ -1,0 +1,28 @@
+
+// Declaración de una clase con sus propiedades y métodos
+
+class Persona{
+    // Definimos la propiedades
+    public edad: number;
+    public nombre: string;
+    public apellido: string;
+    
+    // Getters y Setters
+    public setEdad(value:number){ this.edad = value; }
+    public getEdad(){ return this.edad; }
+
+    public setNombre(value:string){ this.nombre = value; }
+    public getNombre(){ return this.nombre; }
+
+    public setApellido(value:string){ this.apellido = value; }
+    public getApellido(){ return this.apellido; }
+
+    // Constructor de la Clase
+    constructor(){
+        this.edad = 21;
+    }
+}
+
+let sx = new Persona();
+sx.setNombre('Sixto');
+console.log(sx.getNombre())
