@@ -1,0 +1,21 @@
+
+// SCSS Syntax
+// Se encierra el codigo dentro de llaves y se finaliza con ;
+// estilos.scss
+
+body{
+    background: blue;
+}
+
+// SASS Syntax
+// Se identa el codigo y no se finaliza con ;
+// Luego de los : se debe tener un espacio en blanco por que si no da error
+// estilos.sass
+
+body
+    background: blue
+
+
+
+
+// plugin sublime text -> "Syntax Highlighting for Sass"

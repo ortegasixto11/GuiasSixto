@@ -1,0 +1,8 @@
+// Syntactically Awesome StyleSheets (SASS)
+
+- Primero debes tener instalado ruby
+- Luego en la "terminal de ruby" ejecutas este comando 
+
+    gem install sass
+
+Listo eso es todo!!!

@@ -1,0 +1,15 @@
+
+// Los mixins son funciones como en programación (tal cual)
+
+- Declaración
+= nombre_mixin()
+
+
+- Llamado del Mixin
++ nombre_mixin()
+
+// Mixin con parámetros
+= fondo($param1)
+    background: $param1
+
++fondo(red)

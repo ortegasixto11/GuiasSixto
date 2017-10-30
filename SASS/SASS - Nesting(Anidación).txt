@@ -1,0 +1,12 @@
+
+// Ejemplo de anidación en SASS - Muy importante seguir la escalera de identación
+
+header
+    // Estilos del header
+    nav
+        // Estilos del nav
+        a
+            // Estilos del a
+            &:hover
+                // Estilos del a:hover
+

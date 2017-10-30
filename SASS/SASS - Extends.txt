@@ -1,0 +1,8 @@
+
+// Extiende los estilos de otras clases o mixins ya definidas
+
+.color-fondo
+    background: red
+
+.body
+    @extend .color-fondo

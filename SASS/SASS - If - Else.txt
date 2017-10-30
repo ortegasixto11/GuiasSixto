@@ -1,0 +1,9 @@
+
+// Directiva de control If - Else - ElseIf
+
+@if $width == 50px
+    background: yellow
+@else if $width == 100px
+    background: blue
+@else
+    background: red

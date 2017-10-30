@@ -1,0 +1,7 @@
+
+// Nos permite importar archivos dentro de otros archivos. 
+// Sin necesidad de colocar la extención .sass
+
+@import <nombre-archivo>
+
+@import footer

@@ -1,0 +1,12 @@
+
+// Para compilar archivos .sass a .css
+sass main.sass:app.css
+
+// Para compilar automáticamente
+sass --watch main.sass:app.css
+
+// Para minificar el codigo compilado
+sass main.sass:app.css --style compressed
+
+sass main.sass:app.css --style compact
+
