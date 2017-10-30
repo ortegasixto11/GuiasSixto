@@ -1,0 +1,25 @@
+Route Groups
+
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/', function ()    {
+        // Uses Auth Middleware
+    });
+
+    Route::get('user/profile', function () {
+        // Uses Auth Middleware
+    });
+});
+
+
+
+
+Route Prefixes
+The prefix group attribute may be used to prefix each route in the group with a given URI. 
+For example, you may want to prefix all route URIs within the group with admin:
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Route::get('users', function ()    {
+        // Matches The "/admin/users" URL
+    });
+});

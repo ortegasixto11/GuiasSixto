@@ -1,0 +1,9 @@
+
+Generating A Label Element
+  {!! Form::label('email', 'E-Mail Address') !!}
+
+Specifying Extra HTML Attributes
+  {!! Form::label('email', 'E-Mail Address', ['class' => 'awesome']) !!}
+
+Note: After creating a label, any form element you create with a name matching 
+the label name will automatically receive an ID matching the label name as well.

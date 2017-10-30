@@ -1,0 +1,7 @@
+
+Aca actualizo los datos a la BD, primero los busco para ver si estan
+
+  $flight = App\Flight::find(1);
+  $flight->name = 'New Flight Name';
+  $flight->save();
+  

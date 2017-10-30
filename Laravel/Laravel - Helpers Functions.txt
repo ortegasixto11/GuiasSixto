@@ -1,0 +1,21 @@
+
+Funciones ya predefinidas por Laravel para ayudarnos con algunas cosas que necesitemos
+
+The abort function throws a HTTP exception which will be rendered by the exception handler:
+  abort(401);
+  abort(401, 'Unauthorized.');
+
+The auth function returns an authenticator instance:
+  $user = auth()->user();
+
+The back() function generates a redirect response to the user's previous location:
+  return back();
+
+The bcrypt function hashes the given value using Bcrypt
+  $password = bcrypt('my-secret-password');
+
+The cache function may be used to get values from the cache.
+If the given key does not exist in the cache, an optional default value will be returned:
+  $value = cache('key');
+  $value = cache('key', 'default');
+

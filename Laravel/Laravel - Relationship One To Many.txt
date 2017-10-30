@@ -1,0 +1,26 @@
+
+Relaciones Uno a Muchos
+--------------------------
+
+  Una publicación tiene muchos comentarios
+  
+  class Post extends Model{
+    
+    // Get the comments for the blog post.
+    public function comments(){
+        return $this->hasMany('App\Comment');
+    }
+  }
+
+
+  class Comment extends Model{
+    
+    // Get the post that owns the comment.
+    public function post(){
+        return $this->belongsTo('App\Post');
+    }
+  }
+
+
+$comment = App\Comment::find(1);
+echo $comment->post->title;

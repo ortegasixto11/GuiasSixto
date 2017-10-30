@@ -1,0 +1,34 @@
+Available Router Methods
+
+The router allows you to register routes that respond to any HTTP verb:
+
+Route::get($uri, $callback);
+Route::post($uri, $callback);
+Route::put($uri, $callback);
+Route::patch($uri, $callback);
+Route::delete($uri, $callback);
+Route::options($uri, $callback);
+
+Route::get('user/profile', 'UserController@showProfile');
+Route::post('user/profile', 'UserController@showProfile');
+Route::put('user/profile', 'UserController@showProfile');
+Route::patch('user/profile', 'UserController@showProfile');
+Route::delete('user/profile', 'UserController@showProfile');
+
+
+Required Parameters
+Of course, sometimes you will need to capture segments of the URI within your route. 
+For example, you may need to capture a user's ID from the URL. 
+You may do so by defining route parameters:
+
+Route::get('user/{id}', function ($id) {
+    return 'User '.$id;
+});
+You may define as many route parameters as required by your route:
+
+
+Route::get('posts/{post}/comments/{comment}', function ($postId, $commentId) {
+    //
+});
+Route parameters are always encased within {} braces and should consist of alphabetic characters. 
+Route parameters may not contain a - character. Use an underscore (_) instead.

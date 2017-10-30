@@ -1,0 +1,15 @@
+
+Generar modelos con Laravel desde consola
+  php artisan make:model User
+
+Si queremos que tambien nos genere una migración añádimos este parámetro
+  php artisan make:model User -m
+
+Convenciones: las tablas de base de datos deben ser en plural Ej Tabla users Model User
+
+Despues de haber generado el modelo debemos configurar los parámetros
+
+  class User extends Model{
+    protected $table = 'users';
+    public $timestamps = false;
+  }

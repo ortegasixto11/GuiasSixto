@@ -1,0 +1,24 @@
+
+Generating A Drop-Down List
+  {!! Form::select('size', ['L' => 'Large', 'S' => 'Small']) !!}
+
+Generating A Drop-Down List With Selected Default
+  {!! Form::select('size', ['L' => 'Large', 'S' => 'Small'], 'S') !!}
+
+Generating a Drop-Down List With an Empty Placeholder
+  {!! Form::select('size', ['L' => 'Large', 'S' => 'Small'], null, ['placeholder' => 'Pick a size...']) !!}
+
+Generating a List With Multiple Selectable Options
+  {!! Form::select('size', ['L' => 'Large', 'S' => 'Small'], null, ['multiple' => true]) !!}
+
+Generating A Grouped List
+  {!! Form::select('animal',[
+      'Cats' => ['leopard' => 'Leopard'],
+      'Dogs' => ['spaniel' => 'Spaniel'],]) 
+  !!}
+
+Generating A Drop-Down List With A Range
+  {!! Form::selectRange('number', 10, 20) !!}
+
+Generating A List With Month Names
+  {!! Form::selectMonth('month') !!}

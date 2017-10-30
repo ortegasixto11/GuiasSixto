@@ -1,0 +1,10 @@
+
+Insertar en la BD
+  public function store(Request $request)
+  {
+    // Validate the request...
+    $flight = new Flight;
+    // Aca recibo los datos de la petición
+    $flight->name = $request->name;  
+    $flight->save();
+  }

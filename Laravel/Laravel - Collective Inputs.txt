@@ -1,0 +1,34 @@
+
+Generating A Text Input
+  {!! Form::text('username') !!}
+
+Specifying A Default Value
+  {!! Form::text('email', 'example@gmail.com') !!}
+
+Note: The hidden and textarea methods have the same signature as the text method.
+
+Generating A Password Input
+  {!! Form::password('password', ['class' => 'awesome']) !!}
+
+Generating Other Inputs
+  {!! Form::email($name, $value = null, $attributes = []) !!}
+  {!! Form::file($name, $attributes = []) !!}
+
+Generating A Checkbox Or Radio Input
+  {!! Form::checkbox('name', 'value') !!}
+  {!! Form::radio('name', 'value') !!}
+
+Generating A Checkbox Or Radio Input That Is Checked
+  {!! Form::checkbox('name', 'value', true) !!}
+  {!! Form::radio('name', 'value', true) !!}
+
+Generating A Number Input
+  {!! Form::number('name', 'value') !!}
+
+Generating A Date Input
+  {!! Form::date('name', \Carbon\Carbon::now()) !!}
+
+Generating A File Input
+  {!! Form::file('image') !!}
+
+Note: The form must have been opened with the files option set to true.

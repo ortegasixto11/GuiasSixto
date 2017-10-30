@@ -1,0 +1,49 @@
+
+Blade nos permite tener un control de lógico de la aplicación dentro de las vistas
+en pocas palabras ejecutar codigo PHP en las vistas de una manera más amigable
+Ej
+
+If statements
+
+@if ($records === 1)
+  // message
+@elseif ($records === 2)
+  // message
+@else
+  // message
+@endif
+
+Loops
+@for ($i=0; $i<10; $i++)
+  // code
+@endfor
+
+
+
+@foreach ($users as $user)
+  // code
+@endforeach
+
+
+
+@forelse ($users as $user)
+  // code
+@empty
+  // code
+@endforelse
+
+
+
+@while(true)
+  // code
+@endwhile
+
+
+
+@foreach ($users as $user)
+    @continue($user->type == 1)
+
+    <li>{{ $user->name }}</li>
+
+    @break($user->number == 5)
+@endforeach

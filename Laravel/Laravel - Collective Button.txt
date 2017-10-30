@@ -1,0 +1,3 @@
+
+Generating A Submit Button
+  {!! Form::submit('Click Me!') !!}

@@ -1,0 +1,31 @@
+Named Routes
+
+Named routes allow the convenient generation of URLs or redirects for specific routes. 
+You may specify a name for a route by chaining the name method onto the route definition:
+
+Route::get('user/profile', function () {
+    //
+})->name('profile');
+You may also specify route names for controller actions:
+
+
+Route::get('user/profile', 'UserController@showProfile')->name('profile');
+Generating URLs To Named Routes
+
+Once you have assigned a name to a given route, you may use the route's name when generating URLs or redirects via the global route function:
+
+
+// Generating URLs...
+$url = route('profile');
+
+
+// Generating Redirects...
+return redirect()->route('profile');
+If the named route defines parameters, you may pass the parameters as the second argument to the  route function. The given parameters will automatically be inserted into the URL in their correct positions:
+
+
+Route::get('user/{id}/profile', function ($id) {
+    //
+})->name('profile');
+
+$url = route('profile', ['id' => 1]);

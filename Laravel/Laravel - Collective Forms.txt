@@ -1,0 +1,24 @@
+
+Utilizando forms con Laravel collective
+
+Opening A Form
+  {!! Form::open(['url' => 'foo/bar']) !!}
+    //
+  {!! Form::close() !!}
+
+You may also open forms that point to named routes or controller actions:
+  {!! Form::open(['route' => 'route.name']) !!}
+  {!! Form::open(['action' => 'Controller@method']) !!}
+
+Note: Since HTML forms only support POST and GET, PUT and DELETE methods
+  {!! Form::open(['url' => 'foo/bar', 'method' => 'put']) !!}
+
+You may pass in route parameters as well:
+  {!! Form::open(['route' => ['route.name', $user->id]]) !!}
+  {!! Form::open(['action' => ['Controller@method', $user->id]]) !!}
+
+If your form is going to accept file uploads, add a files option to your array:
+  {!! Form::open(['url' => 'foo/bar', 'files' => true]) !!}
+
+Opening A Model Form
+  {!! Form::model($user, ['route' => ['user.update', $user->id]]) !!}

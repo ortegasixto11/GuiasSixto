@@ -1,0 +1,7 @@
+
+Aca elimino los datos de la BD, primero los busco para ver si estan
+
+  $flight = Flight::find(1);
+  $flight->delete();
+
+  

@@ -1,0 +1,13 @@
+
+Pasos para instalar Laravel desde consola con Composer
+
+  composer create-project --prefer-dist laravel/laravel [nombre_proyecto]
+
+
+Para correr la aplicacion desde consola ejecutamos el comando 
+  
+  php artisan serve
+
+
+
+Y luego copiamos http://localhost:8000 para lanzar la aplicación desde consola

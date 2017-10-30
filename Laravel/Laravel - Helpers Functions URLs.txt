@@ -1,0 +1,17 @@
+
+Estas son funciones que nos permiten generar URL para diferentes acciones que queramos
+
+URL para una accion del controlador
+  $url = action('HomeController@getIndex');
+  $url = action('HomeController@getIndex', ['id' => 1]);
+
+URL para assets
+  $url = asset('img/photo.png');
+
+URL para nombres de rutas ya definidas
+  $url = route('routeName');
+  $url = route('routeName', ['id' => 1]);
+
+URL 
+  {{ url('user/profile') }}
+  {{ url('user/profile', ['id' => 1]) }}

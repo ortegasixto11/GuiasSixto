@@ -1,0 +1,9 @@
+
+Permite verificar el valor de una variable
+
+The dd function dumps the given variables and ends execution of the script:
+  dd($value);
+  dd($value1, $value2, $value3, ...);
+
+If you do not want to halt the execution of your script, use the dump function instead:
+  dump($value);

@@ -1,0 +1,4 @@
+
+The response function creates a response instance or obtains an instance of the response factory:
+  return response('Hello World', 200, $headers);
+  return response()->json(['foo' => 'bar'], 200, $headers);

@@ -1,0 +1,30 @@
+Resource Controllers
+
+Crear por consola
+php artisan make:controller PhotoController --resource
+
+Next, you may register a resourceful route to the controller:
+Route::resource('photos', 'PhotoController');
+
+
+Actions Handled By Resource Controller
+
+Verb		URI			Action		Route Name
+
+GET		/photos			index		photos.index
+GET		/photos/create		create		photos.create
+POST		/photos			store		photos.store
+GET		/photos/{photo}		show		photos.show
+GET		/photos/{photo}/edit	edit		photos.edit
+PUT/PATCH	/photos/{photo}		update		photos.update
+DELETE		/photos/{photo}		destroy		photos.destroy
+
+
+Partial Resource Routes
+Route::resource('photo', 'PhotoController', ['only' => [
+    'index', 'show'
+]]);
+
+Route::resource('photo', 'PhotoController', ['except' => [
+    'create', 'store', 'update', 'destroy'
+]]);

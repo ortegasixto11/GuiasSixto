@@ -1,0 +1,31 @@
+CSRF Protection
+
+Any HTML forms pointing to POST, PUT, or DELETE routes that are defined 
+in the web routes file should include a CSRF token field. Otherwise, 
+the request will be rejected. You can read more about CSRF protection in the CSRF documentation:
+
+<form method="POST" action="/profile">
+    {{ csrf_field() }}
+    ...
+</form>
+
+
+Excluding URIs From CSRF Protection
+
+Para excluir rutas de la proteccion
+
+
+namespace App\Http\Middleware;
+use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
+
+class VerifyCsrfToken extends BaseVerifier
+{
+    /**
+     * The URIs that should be excluded from CSRF verification.
+     *
+     * @var array
+     */
+    protected $except = [
+        'stripe/*',
+    ];
+}

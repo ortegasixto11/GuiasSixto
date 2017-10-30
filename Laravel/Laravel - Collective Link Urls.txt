@@ -1,0 +1,17 @@
+
+Podemos generar enlaces a rutas o controladores de esta manera:
+
+Generate a HTML link to the given URL
+  {!! link_to('foo/bar', $title = null, $attributes = [], $secure = null) !!}
+
+Generate a HTML link to the given asset
+  {!! link_to_asset('foo/bar.zip', $title = null, $attributes = [], $secure = null) !!}
+
+Generate a HTML link to the given named route
+  {!! link_to_route('route.name', $title = null, $parameters = [], $attributes = []) !!}
+
+Generate a HTML link to the given controller action
+  {!! link_to_action('HomeController@getIndex', $title = null, $parameters = [], $attributes = []) !!}
+
+Creo que tambien deberia de funcionar si colocarle todos los parámetros de esta manera
+  {!! link_to_action('HomeController@login') !!}

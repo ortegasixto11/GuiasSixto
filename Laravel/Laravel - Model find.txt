@@ -1,0 +1,7 @@
+
+Buscar productos por Id
+
+  // Retrieve a model by its primary key...
+  $flight = Flight::find(1);
+
+  $flights = Flight::find([1, 2, 3]);

@@ -1,0 +1,17 @@
+
+Crear vistas con Laravel
+Las vistas luego de ser creadas se almacenan en el dirtectorio 'resources/views' con la terminación
+sixto.blade.php
+
+Retornar una vista desde el controlador con datos
+  return view('greeting', ['name' => 'James']);
+  return view('greeting')->width('name' => 'James');
+
+Retornar una vista que se encuentra en el directorio 'resources/views/admin/login.blade.php'
+  return view('admin.login');
+
+La función de return view() siempre buscará las vistas en el directorio 'resources/views'
+
+En las vistas siempre se imprimen las variables encerradas bajo llaves dobles {{  }}
+  <h1> Hola, {{ $name }} </h1>
+

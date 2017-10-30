@@ -1,0 +1,34 @@
+
+El motor de plantillas de Laravel es Blade, es ligero sencillo y muy potente.
+La extensión de las vistas son en '.blade.php' Ej 'index.blade.php'
+
+@extends() - Pextender o heredar el contenido de otras vistas
+@yield()   - Carga contenido en esta sección donde la definamos extendiendo a otras vistas
+@section() - Modifica el valor de la seccion declarada en @yield
+@include() - Incluye otras vistas dentro del documento sin necesidad de extender
+Ej
+
+  Definimos una seccion en el fichero 'resources/views/layouts/master.blade.php'
+  <title> @yield('title') - Platzi</title>
+
+  Luego cambiamos su contenido extendiendo de la plantilla
+  Fichero 'resources/views/layouts/login.blade.php'
+  @extends('layouts.master')
+  @section('title')
+  Iniciar Sesión
+  @endsection
+
+  Y en el fichero 'resources/views/layouts/master.blade.php' el title quedará 
+  Iniciar Sesión - Platzi
+  
+Las llaves dobles {{ $name }} es igual que hicieramos esto <?php echo $name;?> Esta es la facilidad
+que nos ofrece Blade. Tambien podemos utilizar {!! !!} que utiliza el escapado de texto htmlentities
+
+Para incluir otras vistas en la plantilla sin necesidad de extender podemos hacerlos asi
+  @include('shared.errors')
+Y le podemos enviar valores de esta manera
+  @include('shared.errors', ['name' => 'Sixto'])  
+
+-- Nota: no se necesita finalizar con ; las instrucciones de Blade Ej
+   Mal:   @include('shared.errors');
+   Bien:  @include('shared.errors')

@@ -1,0 +1,8 @@
+
+Retorno todos los datos de la tabla
+  use App\Flight;
+
+  $flights = Flight::all();
+  foreach ($flights as $flight) {
+    echo $flight->name;
+  }

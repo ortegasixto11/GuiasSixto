@@ -1,0 +1,21 @@
+
+Laravel Collective es un package para poder utilizar Forms & HTML en Laravel
+
+Para instalarlo ejecutamos el siguiente comando en la terminal
+  composer require "laravelcollective/html": "^5.3.0"
+
+Luego de ser instalado el paquete añadimos la siguientes lineas en el array 'providers' del 
+archivo 'config/app.php'
+  'providers' => [
+    // ...
+    Collective\Html\HtmlServiceProvider::class,
+    // ...
+  ],
+
+Finalmente añadimos las aliansas en el array 'aliases' del archivo 'config/app.php'
+  'aliases' => [
+    // ...
+      'Form' => Collective\Html\FormFacade::class,
+      'Html' => Collective\Html\HtmlFacade::class,
+    // ...
+  ],

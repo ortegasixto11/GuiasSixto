@@ -1,0 +1,31 @@
+
+Relaciones Uno a Uno
+------------------------
+
+Un usuario esta relacionado con un telefono
+  The phone method should call the hasOne method and return its result:
+  
+  En el Modelo usuario añadimos el método
+
+  class User extends Model{
+    /**
+     * Get the phone record associated with the user.
+     */
+    public function phone(){
+        return $this->hasOne('App\Phone');
+    }
+  }
+
+  Luego en el modelos telefono añadimos el otro método
+  
+  class Phone extends Model{
+    /**
+     * Get the user that owns the phone.
+     */
+    public function user(){
+        return $this->belongsTo('App\User');
+    }
+  }
+
+Luego para obtener los datos del telefono del usuario lo hacemos de esta manera
+  $phone = User::find(1)->phone;

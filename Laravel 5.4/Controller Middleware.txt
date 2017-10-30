@@ -1,0 +1,25 @@
+Controller Middleware
+
+Middleware may be assigned to the controller's routes in your route files:
+
+Route::get('profile', 'UserController@show')->middleware('auth');
+
+
+class UserController extends Controller
+{
+    /**
+     * Instantiate a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+
+        $this->middleware('log')->only('index');
+
+        $this->middleware('subscribed')->except('store');
+    }
+}
+
+

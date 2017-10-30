@@ -1,0 +1,16 @@
+
+Búsqueda con filtros adicionales
+
+  $flights = Flight::where('active', 1)
+               ->orderBy('name', 'desc')
+               ->take(10)
+               ->get();
+
+Retornando el primer registro que consiga
+  $flight = Flight::where('active', 1)->first();
+
+Contar los resultados del resultado de la busqueda
+  $count = Flight::where('active', 1)->count();
+
+Devolver el maximo resultado de la consultado
+  $max = Flight::where('active', 1)->max('price');

@@ -1,0 +1,6 @@
+
+The redirect function returns a redirect HTTP response, 
+or returns the redirector instance if called with no arguments
+
+  return redirect('/home');
+  return redirect()->route('route.name');

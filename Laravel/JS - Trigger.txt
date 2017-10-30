@@ -1,0 +1,5 @@
+
+Permite invocar otro evento 
+  $('#selector').trigger('click');
+
+Con este código estoy invocando el evento click

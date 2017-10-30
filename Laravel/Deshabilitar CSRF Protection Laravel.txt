@@ -1,0 +1,6 @@
+Deshabilitar csrf de forma global en Laravel 5
+
+simplemente debes abrir el archivo app/Http/Kernel.php y eliminar la siguiente línea 
+del array middleware.
+
+\App\Http\Middleware\VerifyCsrfToken::class,
