@@ -1,0 +1,17 @@
+
+Nos permite llamar otra Activity
+
+  Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+  startActivity(intent);
+
+
+Pasar parámetros a otra Activity,  intent.putExtra("LLAVE", "VALOR");
+
+  Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+  intent.putExtra("param1", "Sixto");
+  startActivity(intent);
+
+Obtener parámetros, con la llave
+
+  Bundle bundle = getIntent().getExtras();
+  String param = bundle.getString("param1").toString();

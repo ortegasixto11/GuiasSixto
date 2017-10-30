@@ -1,0 +1,4 @@
+
+Adapter nos permite adaptar el layout de nuestro ListView, en otras palabras es un 
+molde donde se mostraran los datos
+

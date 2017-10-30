@@ -1,0 +1,9 @@
+
+Nos permite colocar un scroll en la activity
+El ScrollView no puede tener hijos diretos para ello debemos colocarle despues un layout
+
+<ScrollView
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+</ScrollView>

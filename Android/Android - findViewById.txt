@@ -1,0 +1,5 @@
+
+Para obtener los elemento de la vista utilizamos el método findViewById
+
+
+  EditText campo = (EditText) findViewById(R.id.ID_CAMPO);
