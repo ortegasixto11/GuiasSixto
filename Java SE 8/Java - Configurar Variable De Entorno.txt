@@ -1,0 +1,19 @@
+// Configurar variable de entorno en Windows
+
+- Configurar la variable JAVA_HOME:
+Esta variable contendrá la ruta donde se ha instalado Java en nuestro equipo
+
+Abrimos el explorador de Windows -> Equipo -> Propiedades del sistema 
+->Configuración avanzada del sistema -> Variables de entorno
+
+Muy importante elegimos "Variables del sistema" luego le damos el nombre
+"JAVA_HOME" y el valor es la ruta del jdk Ej C:\Program Files\Java\jdk1.8.0_51
+
+- Modificar la variable PATH del sistema
+Abrimos el explorador de Windows -> Equipo -> Propiedades del sistema 
+->Configuración avanzada del sistema -> Variables de entorno
+Muy importante elegimos "Variables del sistema" luego elegimos la variable "PATH" 
+y le añadimos al final la siguiente linea. 
+Si no tiene ; se lo agregamos Ej
+C:\WINDOWS;C:\WINDOWS\system32;%JAVA_HOME%\bin
+

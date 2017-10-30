@@ -1,0 +1,25 @@
+// Clase que nos permite conectarnos a BD con Java
+
+  public class BD{
+
+    private final String URL  = "jdbc:mysql//localhost";
+    private final String DB   = "nombreBD";
+    private final String USER = "user";
+    private final String PASS = "pass";
+
+    public Connection conexion;
+
+    public Connection conectar() throws SQLException{
+      try{
+        Class.forName("com.mysql.jdbc.Driver");
+        conexion = DriverManager.getConnection(URL+DB, USER, PASS);
+        if(conexion){ // EXITO }else{ // ERROR }
+      } catch(Exception e){
+        e.printStackTrace();
+      } finally {
+        return conexion;
+      }
+      
+    }
+
+  }

@@ -1,0 +1,16 @@
+// Leer datos del teclado con la Clase BufferedReader
+
+
+  FileWriter fw = new FileWriter(new File("archivo"));
+  BufferedReader buffer = new BufferedReader(fw);
+  PrintWriter print = new PrintReader(buffer);
+
+  print.write("Hola Mundo");
+  print.append("\nHola Sixto");
+  print.close();
+  buffer.close();
+
+  String texto;
+
+  texto = buffer.readLine();
+

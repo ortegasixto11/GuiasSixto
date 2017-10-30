@@ -1,0 +1,13 @@
+
+// Casting (Conversión) de Variables en Java
+
+float a = 4.25;
+int b = (int) a;  // Ahora b tendrá el valor 4
+
+String.valueOf(value);
+
+Integer.parseInt(value);
+
+Double.parseDouble(value);
+
+Float.parseFloat(value);

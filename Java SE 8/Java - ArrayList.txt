@@ -1,0 +1,11 @@
+
+// ArrayList en Java
+
+  ArrayList<Vehiculo> vehiculos = new ArrayList<Vehiculo>();
+  vehiculos.add(new Vehiculo("AAA123", "Mazda"));
+  vehiculos.add(new Vehiculo("BYG123", "Toyota"));
+  vehiculos.add(new Vehiculo("TFY123", "Ford"));
+
+  for(Vehiculo vh : vehiculos){
+    System.out.println(vh.getMatricula());
+  }

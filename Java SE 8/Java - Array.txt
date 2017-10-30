@@ -1,0 +1,6 @@
+
+  // Arrays en Java
+
+int[] sixto = new int[4];
+
+
