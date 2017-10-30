@@ -1,0 +1,106 @@
+JSON Arrays
+
+
+Las matrices en JSON son casi las mismas que las matrices en JavaScript.
+
+En JSON, los valores del array deben ser del tipo string, number, object, array, boolean o null.
+
+En JavaScript, los valores de matriz pueden ser todos los de arriba, además de cualquier otra expresión JavaScript válida, incluyendo funciones, fechas y undefined.
+
+
+
+
+Arrays in JSON Objects
+Arrays can be values of an object property:
+
+Example
+{
+"name":"John",
+"age":30,
+"cars":[ "Ford", "BMW", "Fiat" ]
+}
+
+
+
+Accessing Array Values
+You access the array values by using the index number:
+
+Example
+x = myObj.cars[0];
+
+
+
+
+
+
+Looping Through an Array
+You can access array values by using a for-in loop:
+
+Example
+for (i in myObj.cars) {
+    x += myObj.cars[i];
+}
+
+
+Or you can use a for loop:
+
+Example
+for (i = 0; i < myObj.cars.length; i++) {
+    x += myObj.cars[i];
+}
+
+
+
+
+
+
+Nested Arrays in JSON Objects
+Values in an array can also be another array, or even another JSON object:
+
+Example
+myObj = {
+    "name":"John",
+    "age":30,
+    "cars": [
+        { "name":"Ford", "models":[ "Fiesta", "Focus", "Mustang" ] },
+        { "name":"BMW", "models":[ "320", "X3", "X5" ] },
+        { "name":"Fiat", "models":[ "500", "Panda" ] }
+    ]
+ }
+
+
+To access arrays inside arrays, use a for-in loop for each array:
+
+Example
+for (i in myObj.cars) {
+    x += "<h1>" + myObj.cars[i].name + "</h1>";
+    for (j in myObj.cars[i].models) {
+        x += myObj.cars[i].models[j];
+    }
+}
+
+
+
+
+
+
+Modify Array Values
+Use the index number to modify an array:
+
+Example
+ myObj.cars[1] = "Mercedes";
+
+
+
+
+
+
+Delete Array Items
+Use the delete keyword to delete items from an array:
+
+Example
+delete myObj.cars[1];
+
+
+
+

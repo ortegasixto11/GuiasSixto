@@ -1,0 +1,65 @@
+
+// Reglas de sintaxis de JSON
+La sintaxis JSON se deriva de la sintaxis de la notación de objetos JavaScript:
+
+Los datos están en pares nombre / valor
+Los datos están separados por comas
+Las llaves rizadas sostienen objetos
+Los soportes cuadrados contienen arrays
+
+
+
+// Datos JSON - un nombre y un valor
+Los datos JSON se escriben como pares nombre / valor.
+
+Un par nombre / valor consta de un nombre de campo (en comillas dobles), seguido de dos puntos, seguido por un valor:
+
+"name":"John"
+
+
+
+
+// JSON - Evalúa a objetos JavaScript
+El formato JSON es casi idéntico a los objetos JavaScript.
+
+En JSON, las claves deben ser cadenas, escritas con comillas dobles:
+
+JSON
+{ "name":"John" }
+In JavaScript, keys can be strings, numbers, or identifier names:
+
+JavaScript
+{ name:"John" }
+
+
+
+// JSON utiliza la sintaxis de JavaScript
+Debido a que la sintaxis JSON se deriva de la notación de objetos JavaScript, se necesita muy poco software adicional
+para trabajar con JSON dentro de JavaScript.
+
+Con JavaScript puedes crear un objeto y asignarle datos, como esto:
+
+Example
+var person = { "name":"John", "age":31, "city":"New York" };
+You can access a JavaScript object like this:
+
+Example
+// returns John
+person.name;
+
+
+It can also be accessed like this:
+
+Example
+// returns John
+person["name"];
+
+Data can be modified like this:
+
+Example
+person.name = "Gilbert";
+
+It can also be modified like this:
+
+Example
+person["name"] = "Gilbert";

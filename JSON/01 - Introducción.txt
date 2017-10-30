@@ -1,0 +1,75 @@
+
+// JSON = JavaScript Object Notation
+
+
+Intercambiar datos
+- Al intercambiar datos entre un navegador y un servidor, los datos sólo pueden ser texto.
+- JSON es texto, y podemos convertir cualquier objeto JavaScript en JSON, y enviar JSON al servidor.
+- También podemos convertir cualquier JSON recibido del servidor en objetos JavaScript.
+
+De esta manera podemos trabajar con los datos como objetos JavaScript, sin complicado análisis y traducciones.
+
+
+// ENVIAR DATOS AL SERVIDOR
+- Para enviar datos al servidor podemos, convertirlos en objetos JSON y enviarlos al servidor
+- JSON.stringify() -> Convierte un objeto a cadena de caracteres.
+
+Example
+var myObj = { "name":"John", "age":31, "city":"New York" };
+var myJSON = JSON.stringify(myObj);
+window.location = "demo_json.php?x=" + myJSON;
+
+
+
+
+Receiving Data
+If you receive data in JSON format, you can convert it into a JavaScript object:
+
+Example
+var myJSON = '{ "name":"John", "age":31, "city":"New York" }';
+var myObj = JSON.parse(myJSON);
+document.getElementById("demo").innerHTML = myObj.name;
+
+
+
+
+
+
+
+Almacenamiento de datos
+Al almacenar datos, los datos tienen que ser un cierto formato, e independientemente de donde usted elija almacenar, el texto es siempre uno de los formatos legales.
+
+JSON permite almacenar objetos JavaScript como texto.
+
+Example
+Storing data in local storage
+
+//Storing data:
+myObj = { "name":"John", "age":31, "city":"New York" };
+myJSON = JSON.stringify(myObj);
+localStorage.setItem("testJSON", myJSON);
+
+//Retrieving data:
+text = localStorage.getItem("testJSON");
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML = obj.name;
+
+
+
+
+
+
+
+
+¿Por qué utilizar JSON?
+Dado que el formato JSON es sólo texto, puede ser fácilmente enviado ay desde un servidor y utilizado como formato de datos por cualquier lenguaje de programación.
+
+JavaScript tiene una función incorporada para convertir una cadena, escrita en formato JSON, en objetos JavaScript nativos:
+
+JSON.parse ()
+
+Por lo tanto, si recibe datos de un servidor, en formato JSON, puede utilizarlo como cualquier otro objeto JavaScript.
+
+
+
+

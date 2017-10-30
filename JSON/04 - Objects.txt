@@ -1,0 +1,116 @@
+JSON Objects
+
+Object Syntax
+Example
+{ "name":"John", "age":30, "car":null }
+
+Los objetos JSON están rodeados de llaves {}.
+
+Los objetos JSON se escriben en pares clave / valor.
+
+Las claves deben ser cadenas y los valores deben ser un tipo de datos JSON válido (cadena, número, objeto, matriz, booleano o nulo).
+
+Las claves y los valores están separados por dos puntos.
+
+Cada par clave / valor está separado por una coma.
+
+
+
+
+
+Accessing Object Values
+You can access the object values by using dot (.) notation:
+
+Example
+myObj = { "name":"John", "age":30, "car":null };
+x = myObj.name;
+
+
+
+You can also access the object values by using bracket ([]) notation:
+
+Example
+myObj = { "name":"John", "age":30, "car":null };
+x = myObj["name"];
+
+
+
+
+
+
+Looping an Object
+You can loop through object properties by using the for-in loop:
+
+Example
+myObj = { "name":"John", "age":30, "car":null };
+for (x in myObj) {
+    document.getElementById("demo").innerHTML += x;
+}
+
+
+In a for-in loop, use the bracket notation to access the property values:
+
+Example
+myObj = { "name":"John", "age":30, "car":null };
+for (x in myObj) {
+    document.getElementById("demo").innerHTML += myObj[x];
+}
+
+
+
+
+
+
+Nested JSON Objects
+Values in a JSON object can be another JSON object.
+
+Example
+myObj = {
+    "name":"John",
+    "age":30,
+    "cars": {
+        "car1":"Ford",
+        "car2":"BMW",
+        "car3":"Fiat"
+    }
+ }
+You can access nested JSON objects by using the dot notation or bracket notation:
+
+Example
+x = myObj.cars.car2;
+//or:
+x = myObj.cars["car2"];
+
+
+
+
+
+
+Modify Values
+You can use the dot notation to modify any value in a JSON object:
+
+Example
+myObj.cars.car2 = "Mercedes";
+
+You can also use the bracket notation to modify a value in a JSON object:
+
+Example
+myObj.cars["car2"] = "Mercedes";
+
+
+
+
+
+
+
+Delete Object Properties
+Use the delete keyword to delete properties from a JSON object:
+
+Example
+delete myObj.cars.car2;
+
+
+
+
+
+
