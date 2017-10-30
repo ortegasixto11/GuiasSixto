@@ -1,0 +1,12 @@
+
+  // Crear un archivo con la clase TextWriter
+
+  TextWriter archivo = new StreamWriter("miArchivo.txt");
+  string texto;
+
+  mensaje = Console.ReadLine();
+  archivo.WriteLine(mensaje);
+  archivo.Close();
+  Console.Clear();
+  Console.WriteLine("Se creo el archivo");
+  Console.ReadKey();

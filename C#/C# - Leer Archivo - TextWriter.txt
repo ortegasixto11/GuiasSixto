@@ -1,0 +1,13 @@
+
+  // Leer un archivo con la clase TextWriter
+
+  TextWriter archivo = new StreamWriter("miArchivo.txt");
+  string texto;
+
+  mensaje = Console.ReadLine();
+  Console.Clear();
+  Console.WriteLine(archivo.ReadToEnd());
+  archivo.Close();
+  Console.ReadKey();
+
+  // El método ReadToEnd(), leerá todo el contenido del archivo, hasta el final

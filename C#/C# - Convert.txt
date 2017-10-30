@@ -1,0 +1,5 @@
+
+  //Permite convertir valores, double, int, string
+
+  Convert.ToDouble(value);
+  Convert.ToInt32(value);

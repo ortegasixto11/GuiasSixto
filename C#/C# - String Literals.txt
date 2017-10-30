@@ -1,0 +1,4 @@
+
+// Nos permite interpolar variables
+int edad = 21;
+string cadena = $"Mi edad es : {edad}";
