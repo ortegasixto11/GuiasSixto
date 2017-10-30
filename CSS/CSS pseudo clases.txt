@@ -1,0 +1,4 @@
+::nth-child(N)  Selecciona los elementos en base a sus posiciones en una lista de 
+elementos hijos dentro de un elemento padre. N es el numero de la posicion.
+
+::nth-last-child(N)  

@@ -1,0 +1,6 @@
+Selector {especificación del estilo} 
+El selector puede ser un elemento HTML o uno definido por nosotros (clases)
+Selector {propiedad: valor} 
+Selector {propiedad: valor1, valor2} 
+Selector {propiedad1: valor1, valor2; propiedad2: valor3, valor4}
+H1 { font-family: Arial, sans-serif; font-size: 28pt}

@@ -1,0 +1,24 @@
+El atributo transform, nos permite transformar un elemento
+
+rotate. Nos permite girar un elemento un numero de grados.
+transform: rotate(25deg);
+
+El valor que le demos de giro se aplicara en sentido de las agujas del reloj.
+
+
+skew. Permite inclinar un elemento
+transform: skew(gradosX, gradosY);
+
+transform: skew(15deg, 3deg);
+
+
+scale. Permite escalar un elemento
+transform: scale(escalaX, escalaY);
+
+transform: scale(1.5, 0.6);
+
+
+translate. Permite desplazar en elemento
+transform: translate(desplazamientoX, desplazamientoY);
+
+transform: translate(12px, 19px);

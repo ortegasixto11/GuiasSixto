@@ -1,0 +1,14 @@
+:first-line    Selecciona la primera linea.
+:first-letter  Selecciona la primera letra.
+:before        Nos posiciona al INICIO de un contenido de un elemento.
+:after         Nos posiciona al FINAL de un contenido de un elemento.
+
+CSS3 cambia la sintaxis en lugar de ":", escribiremos "::".
+
+CSS3 nuevo elemento 
+
+::selection  Referencia al texto seleccionado por el usuario.
+
+p::selection { background-color: blue; }
+Cuando seleccionemos el texto del parrafo, la seleccion tendra color de fondo azul
+en vez del tipico gris.

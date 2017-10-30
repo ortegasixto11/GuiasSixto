@@ -1,0 +1,7 @@
+box-shadow: distanciaX distanciaY difuminado color;
+
+Aplicado de la siguiente forma
+box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5);
+
+Si quisieramos añadir varias sombras utilizamos la coma(,) como separador
+box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5), -5px -10px 7px rgba(0, 0, 0, 0.5);

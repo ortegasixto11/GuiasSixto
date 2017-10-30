@@ -1,0 +1,12 @@
+Creación del archivo .css 
+
+Archivo de texto con las definiciones de los estilos 
+<HEAD> 
+... 
+<LINK rel=”stylesheet” type=”text/css” href=”estilo.css”> 
+... 
+</HEAD> 
+
+Atributo REL: El enlace es una hoja de estilos 
+Atributo TYPE: El archivo es de texto y en sintaxis 
+CSS Atributo HREF: Archivo .css

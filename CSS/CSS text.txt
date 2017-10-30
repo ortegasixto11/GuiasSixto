@@ -1,0 +1,27 @@
+
+//Distancia entre palabras del texto
+word-spacing: 18px;
+
+
+//Distancia entre las letras del texto
+letter-spacing: 18px;
+
+
+//Presentaciones para el texto
+text-decoration: underline(subrayado) || overline(lineaArriba) || line-through(tachado) || blink;
+
+
+//Posicion vertical del texto, respecto a su contenedor
+vertical-align: top || middle || bottom;
+
+
+//Alineacion horizontal
+text-align: left || right || center || justify;
+
+
+//Sangria de primera linea
+text-indent: pixeles || valores negativos;
+
+
+//Trasnformacion del texto
+text-transform: capitalize(primeraLetraMyuscula) || uppercase(mayusculas) || lowercase(minusculas)

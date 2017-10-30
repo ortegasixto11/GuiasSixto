@@ -1,0 +1,29 @@
+
+//Tamaño de la fuente
+
+font-size   
+font-size: 15px;
+
+
+//Tipo de letra
+
+font-family
+font-family: Arial, Helvetica, sans-serif;
+
+
+//Grosor de la fuente
+
+font-weight
+font-weight: normal || bold;
+
+
+//Estilo de letra
+
+font-style
+font-style: normal || italic || oblique;
+
+
+//Color de la fuente
+
+font-color
+font-color: #aaf;

@@ -1,0 +1,32 @@
+//Bordes redondeados
+
+border-radius: 15px;
+border-radius: 15px 0px 15px 0px;
+
+//Siempre se cuenta en el sentido de las agujas del reloj
+border-radius: UP RIGHT BOTTOM LEFT;
+
+//Para indicar el radio de cada esquina sin usar shorthands utilizamos la sintaxis
+border-Y-X-radius: 15px;  Y= UP, BOTTOM. X= LEFT, RIGHT.
+
+border-top-left-radius: 15px; Equivale a.
+border-radius: 15px 0px 0px 0px;
+
+//Anchura del borde
+border-top-width: 10px;
+border-right-width: 8px;
+border-bottom-width: 6px;
+border-left-width: 4px;
+
+border-width: 10px 8px 6px 4px ;
+
+//Color de borde
+border-top-color: red;
+border-right-color: blue;
+border-bottom-color: yellow;
+border-left-color: pink;
+
+border-color: red blue yellow pink;
+
+//Estilo de linea
+border-style: ; dotted(punteada), dashed(rayada), solid(solida), double(lineaDoble), none, 

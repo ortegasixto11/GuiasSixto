@@ -1,0 +1,15 @@
+
+//Color de fondo
+background-color: red;
+
+
+//Define una imagen de fondo
+background-image: url('rutaImagen');
+
+
+//Indica como se debe repetir la imagen
+background-repeat: repeat, no-repeat, repeat-x, repeat-y;
+
+
+//Posicion de la imagen, se especifican 2 posiciones vertical - horizontal
+background-position: TOP CENTER BOTTOM, LEFT CENTER RIGHT ;

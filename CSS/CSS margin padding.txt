@@ -1,0 +1,14 @@
+
+// Indica la distancia del margen (puede ser negativa)
+margin-top: 10px;
+margin-right: 5px;
+margin-bottom: 8px;
+margin-left: 6px;
+
+// Es equivalente a 
+margin: 10px 5px 8px 6px ;
+
+// Determina el espacio de relleno y se usa igual que margin
+padding
+
+
