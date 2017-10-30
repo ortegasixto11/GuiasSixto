@@ -1,0 +1,9 @@
+
+// Obtiene los valores enviados por el método GET desde un formulario
+    $sx = $_GET['nombre'];
+
+// Obtiene los valores enviados por el método POST desde un formulario
+    $sx = $_POST['nombre'];
+
+// Obtiene los valores enviados a través de un formulario sin necesidad de saber el metodo en el cual se enviaron
+    $sx = $_REQUEST['nombre'];

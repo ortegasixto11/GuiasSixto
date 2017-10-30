@@ -1,0 +1,5 @@
+
+// Elimina variables 
+$sx = 6;
+
+unset($sx); // $sx fue eliminada

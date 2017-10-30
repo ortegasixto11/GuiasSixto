@@ -1,0 +1,10 @@
+// ARRAY INDEXADO
+
+$arreglo = array('uno', 'dos', 'tres');  // DEFINIMOS EL ARREGLO
+echo $arreglo[2];  // tres
+
+
+// ARRAY ASOCIATIVO
+
+$arreglo = array('nombre' => 'sixto', 'apellido' => 'ortega');
+echo $arreglo['apellido'];  // ortega

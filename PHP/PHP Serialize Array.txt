@@ -1,0 +1,17 @@
+ENVIAR ARRAY POR POST EN PHP
+
+Si quiero enviar un array por el método POST no vale con enviar el objeto, 
+sino que hay que emplear la función serialize, que es útil para el almacenamiento 
+de valores en PHP sin perder su tipo y estructura. Por ejemplo, 
+dentro de las etiquetas del formulario habría que introducir:
+
+<form method=”POST”>
+  <input type="hidden" name="lista_nums" value="'.serialize($listaNums).'">
+  <input type=”submit” value=”Enviar” />
+</form>
+
+
+Y ya en la página nueva lo dejamos como estaba:
+
+
+$listaNums = unserialize($_POST['lista_nums']);

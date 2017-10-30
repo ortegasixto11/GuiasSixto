@@ -1,0 +1,8 @@
+
+/* 
+* Genera una cadena con el texto “cadena_texto” donde todas las cadenas “búsqueda” han sido reemplazadas
+*  por las cadenas “reemplazo”. Si consultas la referencia de esta función verás que todos los elementos 
+*  pueden ser arrays.
+*/
+
+// str_replace(búsqueda, reemplazo, cadena_texto)

@@ -1,0 +1,7 @@
+
+// Manejo de Emails con PHP
+// mail(para, asunto, mensaje, [adicional headers])
+
+Ej
+   mail('ortegasixto7@gmail.com', 'Prueba mail con PHP', 'Hola Sixto');
+

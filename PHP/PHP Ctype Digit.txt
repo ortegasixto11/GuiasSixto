@@ -1,0 +1,23 @@
+ctype_digit — Chequear posibles caracteres numéricos
+
+Verifica si todos los caracteres en la string entregada, text, son numéricos.
+
+Devuelve TRUE si cada caracter del texto es un dígito decimal, o FALSE de lo contrario.
+
+Ejemplo #1 Un ejemplo de ctype_digit()
+
+<?php
+$cadenas = array('1820.20', '10002', 'wsl!12');
+foreach ($cadenas as $caso_prueba) {
+    if (ctype_digit($caso_prueba)) {
+        echo "La cadena $caso_prueba consiste completamente de dígitos.\n";
+    } else {
+        echo "La cadena $caso_prueba no consiste completamente de dígitos.\n";
+    }
+}
+?>
+El resultado del ejemplo sería:
+
+La cadena 1820.20 no consiste completamente de dígitos.
+La cadena 10002 consiste completamente de dígitos.
+La cadena wsl!12 no consiste completamente de dígitos.

@@ -1,0 +1,8 @@
+
+// Con esta función podremos leer archivos de texto sin necesidad de ir recorriéndolos línea a línea para obtener su contenido.
+// file_get_contents(ruta_del_archivo)
+$texto = file_get_contents('archivo.txt')
+
+// Convierte los saltos de linea a etiquetas <br />
+$texto = file_get_contents('archivo.txt');
+$texto = nl2br($texto);

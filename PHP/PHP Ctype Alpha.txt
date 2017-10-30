@@ -1,0 +1,26 @@
+ctype_alpha — Chequear posibles caracteres alfabéticos
+
+Verifica si todos los caracteres en la string entregada,texto, son alfabéticos. 
+En la localización C estándar las letras se limitan a [A-Za-z] y ctype_alpha() 
+es equivalente a (ctype_upper($texto) || ctype_lower($texto)) si $texto es un caracter 
+sencillo, aunque otros idiomas usan letras que no son consideradas como mayúsculas 
+ni minúsculas.
+
+Devuelve TRUE si cada caracter de texto es una letra de la localización actual, FALSE de lo contrario.
+
+Ejemplo #1 Un ejemplo de ctype_alpha() (usando la localización predeterminada)
+
+<?php
+$cadenas = array('KjgWZC', 'arf12');
+foreach ($cadenas as $caso_prueba) {
+    if (ctype_alpha($caso_prueba)) {
+        echo "La cadena $caso_prueba consiste completamente de letras.\n";
+    } else {
+        echo "La cadena $caso_prueba no consiste completamente de letras.\n";
+    }
+}
+?>
+El resultado del ejemplo sería:
+
+La cadena KjgWZC consiste completamente de letras.
+La cadena arf12 no consiste completamente de letras.

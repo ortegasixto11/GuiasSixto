@@ -1,0 +1,3 @@
+
+// Valida si fue declarada una variable. Devuelve true o false
+    isset($sx)

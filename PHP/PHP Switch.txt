@@ -1,0 +1,16 @@
+
+$numero = 2;
+
+switch($numero){
+	case 1: echo "es uno"; break;
+	case 2: echo "es dos"; break;
+	case 3: echo "es tres"; break;
+	default : echo "no se que numero sera";
+}
+
+switch($numero):
+	case 1: echo "es uno"; break;
+	case 2: echo "es dos"; break;
+	case 3: echo "es tres"; break;
+	default : echo "no se que numero sera";
+endswitch;

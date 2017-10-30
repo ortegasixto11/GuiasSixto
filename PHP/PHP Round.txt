@@ -1,0 +1,18 @@
+round — Redondea un float
+
+Devuelve el valor redondeado de val con la precision especificada 
+(número de dígitos desde el punto decimal). precision puede también ser negativo o cero 
+(valor predeterminado).
+
+Ejemplo #1 Ejemplos de round()
+
+<?php
+echo round(3.4);         // 3
+echo round(3.5);         // 4
+echo round(3.6);         // 4
+echo round(3.6, 0);      // 4
+echo round(1.95583, 2);  // 1.96
+echo round(1241757, -3); // 1242000
+echo round(5.045, 2);    // 5.05
+echo round(5.055, 2);    // 5.06
+?>

@@ -1,0 +1,15 @@
+
+foreach($array as $valor){
+	//sentencias
+}
+
+foreach($array as $valor):
+	//sentencias
+endforeach;
+
+
+// PARA ARRAY ASOCIATIVO array('nombre' => 'sixto')
+foreach($array as $clave => $valor):
+	echo $clave // IMPRIME nombre
+	echo $valor // IMPRIME sixto
+endforeach;

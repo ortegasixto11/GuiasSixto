@@ -1,0 +1,8 @@
+
+// Añade caracteres "\" a la cadena
+addslashes($cadena)
+
+
+// Elimina caracteres "\" de la cadena
+
+stripslashes($cadena)

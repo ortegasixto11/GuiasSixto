@@ -1,0 +1,30 @@
+
+// Manejo de Archivos con PHP
+
+// Abre un archivo o una URL
+// Si se abre con éxito devuelve un puntero de lo contrario devuelve false
+/* 
+* El modo de abrir el archivo:
+* 'r'  -> abre para solo lectura. Situa el puntero al comienzo del archivo.
+* 'r+' -> abre para lectura y escritura. Situa el puntero al comienzo del archivo.
+* 'w'  -> abre para solo escritura. Crea el archivo si no existe y situa el puntero al comienzo del archivo.
+* 'w+' -> abre para lectura y escritura. Crea el archivo si no existe y situa el puntero al comienzo del archivo.
+* 'a'  -> abre para escritura(añadir). Crea el archivo si no existe y situa el puntero al final del archivo.
+* 'a+' -> abre para lectura y escritura(añadir). Crea el archivo si no existe y situa el puntero al final del archivo.
+//fopen(archivo, modo)
+
+fopen('archivos/prueba.txt', 'r');
+
+// Escribe la cadena en el puntero
+// fwrite(puntero_archivo, cadena)
+fwrite(archivo, 'Hola Sixto');
+
+
+// Cierra el archivo
+fclose(archivo);
+
+// Ejemplo
+$file = fopen("archivo.txt", "w"); 
+fwrite($file, "Esto es una nueva linea de texto" . PHP_EOL); 
+fwrite($file, "Otra más" . PHP_EOL); 
+fclose($file);

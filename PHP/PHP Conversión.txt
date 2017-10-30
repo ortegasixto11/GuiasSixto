@@ -1,0 +1,7 @@
+
+// Conversiones de datos en PHP
+    $sx = (int) 4.36  // Convierte a entero
+    $sx = (float) 12  // Convierte a decimal
+    $sx = (double) 12 // Convierte a decimal
+    $sx = (string) 29 // Convierte a cadena
+    $sx = (object) 'sixto'  // Convierte a objeto

@@ -1,0 +1,10 @@
+$ini = 3
+
+while($ini == 3){
+	//sentencias
+}
+
+
+while($ini == 3):
+	//sentencias
+endwhile;
