@@ -1,0 +1,3 @@
+Para decirle a JavaScript que nuestra función es un generador debemos indicarlo con un asterisco de la siguiente forma:
+function(asterisco)
+Si creamos un generador debemos colocar la palabra clave yield la cual indica que cuando llamemos la función después de la primera vez, esta iniciará en la línea después de yield.

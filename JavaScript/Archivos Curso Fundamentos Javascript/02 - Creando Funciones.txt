@@ -1,0 +1,17 @@
+Para escribir y ejecutar la mayoría del código que vamos a escribir puedes usar la consola de desarrollo de tu navegador.
+
+Para calcular el area de un cuadrado podemos ejecutar:
+
+console.log("El área de un triángulo de base 5 y altura 7 es: " + 5 7 / 2)
+
+¿Pero si queremos calcular el area de diferentes cuadrados? podemos automatizar esto utilizando una función
+
+Una función encapsula una pieza de código que podemos ejecutar dependiendo de valores que les pasemos, para escribir nuestra funciones usamos el keyword function
+
+Las funciones pueden tener un nombre, pero si no definimos este nombre son funciones anonimas, los valores que recibe se llaman parametros y devuelven un valor usando el keyword return
+functiontriangleArea(base, height) {    return base 
+ height / 2  }    triangleArea(5,7)  
+
+Algo importante del lenguaje es que podemos asignar una función a una variable y usar un arrow function que nos hace la lectura del código más legible.
+
+let triangleArea = (base, height) => base * height / 2

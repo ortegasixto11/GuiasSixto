@@ -1,0 +1,8 @@
+Cuando tenemos varios objetos que compartan la misma estructura podemos crear un prototipo del cual podemos crear los objetos que queramos.
+
+Para nuestro ejercicio de los puntos podemos crear esta estructura como
+functionPunto(x,y){    this.x = x    this.y = y  }    const p1 = new Punto(0,4)  
+
+Con el keyword new creamos un nuevo objeto
+
+Los objetos se vinculan con otros objetos a través de prototype, en el navegador lo puedes ver como proto y mostrara el prototipo con el que fue creado

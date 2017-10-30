@@ -1,0 +1,7 @@
+Syntax
+Return the length of an array:
+
+array.length
+Set the length of an array:
+
+array.length = number

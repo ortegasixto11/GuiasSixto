@@ -1,0 +1,182 @@
+String Length
+The length property returns the length of a string:
+
+Example
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var sln = txt.length;
+
+
+
+Finding a String in a String
+The indexOf() method returns the index of (the position of) the first occurrence of a specified text in a string:
+
+Example
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
+
+
+
+The lastIndexOf() method returns the index of the last occurrence of a specified text in a string:
+
+Example
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("locate");
+
+Both the indexOf(), and the lastIndexOf() methods return -1 if the text is not found.
+
+
+
+Searching for a String in a String
+The search() method searches a string for a specified value and returns the position of the match:
+
+Example
+var str = "Please locate where 'locate' occurs!";
+var pos = str.search("locate");
+
+
+
+
+Extracting String Parts
+There are 3 methods for extracting a part of a string:
+
+slice(start, end)
+substring(start, end)
+substr(start, length)
+
+
+
+
+
+The slice() Method
+slice() extracts a part of a string and returns the extracted part in a new string.
+
+The method takes 2 parameters: the starting index (position), and the ending index (position).
+
+This example slices out a portion of a string from position 7 to position 13:
+
+Example
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(7, 13);
+The result of res will be:
+
+Banana
+
+
+
+
+
+
+The substring() Method
+substring() is similar to slice().
+
+The difference is that substring() cannot accept negative indexes.
+
+Example
+var str = "Apple, Banana, Kiwi";
+var res = str.substring(7, 13);
+The result of res will be:
+
+Banana
+
+
+
+
+
+
+The substr() Method
+substr() is similar to slice().
+
+The difference is that the second parameter specifies the length of the extracted part.
+
+Example
+var str = "Apple, Banana, Kiwi";
+var res = str.substr(7, 6);
+The result of res will be:
+
+Banana
+
+
+
+
+
+
+Replacing String Content
+The replace() method replaces a specified value with another value in a string:
+
+Example
+str = "Please visit Microsoft!";
+var n = str.replace("Microsoft", "W3Schools");
+
+
+
+
+
+Converting to Upper and Lower Case
+A string is converted to upper case with toUpperCase():
+
+Example
+var text1 = "Hello World!";       // String
+var text2 = text1.toUpperCase();  // text2 is text1 converted to upper
+
+
+
+
+
+
+A string is converted to lower case with toLowerCase():
+
+Example
+var text1 = "Hello World!";       // String
+var text2 = text1.toLowerCase();  // text2 is text1 converted to lower
+
+
+
+
+
+The concat() Method
+concat() joins two or more strings:
+
+Example
+var text1 = "Hello";
+var text2 = "World";
+var text3 = text1.concat(" ", text2);
+
+
+
+
+
+The charAt() Method
+The charAt() method returns the character at a specified index (position) in a string:
+
+Example
+var str = "HELLO WORLD";
+str.charAt(0);            // returns H
+
+
+
+
+
+
+The charCodeAt() Method
+The charCodeAt() method returns the unicode of the character at a specified index in a string:
+
+Example
+var str = "HELLO WORLD";
+
+str.charCodeAt(0);         // returns 72
+
+
+
+
+
+
+
+Converting a String to an Array
+A string can be converted to an array with the split() method:
+
+Example
+var txt = "a,b,c,d,e";   // String
+txt.split(",");          // Split on commas
+txt.split(" ");          // Split on spaces
+txt.split("|");          // Split on pipe
+

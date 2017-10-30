@@ -1,0 +1,3 @@
+This hace referencia a un objeto y su valor depende de donde lo usemos, por ejemplo
+classPersona{    constructor(nombre, amigos = []) {      this.nombre = nombre      this.amigos = amigos    }  }    
+const sacha = new Persona("Sacha", ["pedro", "juan", "pepe"])  

@@ -1,0 +1,6 @@
+Las funciones recursivas son funciones que se llaman a si mismas, si, el resultado de la función es el llamado de la misma función.
+Este comportamiento es muy importarte para solucionar cosas como series o algoritmos que tomen en cuenta valores pasados.
+La recursividad se compone de 2 partes indispensables:
+A) Un caso base
+B) El llamado de la misma función dentro de la función
+Sin un caso base, la función se va a llamar infinitamente. Esto quedará mas claro con el ejemplo de serie de fibonacci.
