@@ -1,0 +1,4 @@
+
+// Crear modelos con la consola tiene que ser el mismo nombre de la tabla
+    bin/cake bake model Users
+

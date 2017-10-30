@@ -1,0 +1,11 @@
+
+// Formulario oculto para poder eliminar datos
+
+<form action="/pocake/users/delete/48" method="post" style="display: none;" name="post_cuir">
+  <input type="hidden" value="POST" name="_method" />
+</form>
+
+<a onclick="if(confirm("Deseas Eliminar el registro")){ document.post_cuir.submit() } 
+event.returnValue=false; return false;" href="#">
+Delete
+</a>

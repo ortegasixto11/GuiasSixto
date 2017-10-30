@@ -1,0 +1,10 @@
+
+// Enviando las respuestas del controlador a la vista 
+// Aca enviamos el charset UTF-8
+    $this->response->charset('UTF-8');
+
+// Enviando cabeceras simples
+    $this->response->header('Location', 'http://example.org');
+
+// Enviando multiple headers
+    $this->response->header(['Location' => 'http://example.org', '_token' => 'ElTokenSuperSecreto']);    

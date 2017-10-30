@@ -1,0 +1,10 @@
+
+// Para instalar CakePHP debemos correr este comando en la consola
+    composer self-update && composer create-project --prefer-dist cakephp/app <my_app_name>
+
+// Para ejecutar utilizamos el comando. El cual nos dara una ruta para ejecutar nuestra app http://host:port
+    bin/cake server
+
+// Por defecto las aplicaciones de CakePHP se ejecutan en la ruta http://localhost:8765/
+// Pero si llegamos a tener problemas podemos configurar los parámetros con el comando
+    bin/cake server -H 192.168.13.37 -p 5673

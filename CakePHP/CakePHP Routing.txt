@@ -1,0 +1,10 @@
+
+// Defiendo rutas en CakePHP
+// En el archivo config/routes.php añadimos todas nuestras rutas
+    Router::connect('/articles/*', ['controller' => 'Articles', 'action' => 'view']);
+
+// Definiendo nombre a las rutas
+    Router::connect('/login', ['controller' => 'Users', 'action' => 'login'], ['_name' => 'login']);
+
+// Rutas con parámetros
+    Router::connect('/login/:username/:password', ['controller' => 'Users', 'action' => 'login'], ['_name' => 'login']);

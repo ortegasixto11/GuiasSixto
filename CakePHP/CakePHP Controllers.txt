@@ -1,0 +1,12 @@
+
+// Controladores en CakePHP
+// Los controladores se guardan en src/Controller/<nombre_controlador>
+
+// Para retornar una vista 
+    $this->render();
+
+// Para tener en cuenta: el nombre de los métodos deben ser tambien el nombre de las vistas
+    public function search(){
+        // Render the view in src/Template/Recipes/search.ctp
+        $this->render();
+    }

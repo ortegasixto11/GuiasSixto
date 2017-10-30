@@ -1,0 +1,15 @@
+
+// Redireccionar con CakePHP
+
+// Redireccionar a otras vistas
+    return $this->redirect(['controller' => 'Orders', 'action' => 'index']);
+
+// Redireccionar a rutas 
+    return $this->redirect('/orders/thanks');
+    return $this->redirect('http://www.example.com');
+
+// Pasar datos a la vista
+    return $this->redirect(['action' => 'edit', $id]);
+
+// Redireccionar a otra acción en el mismo controlador
+    $this->action('index');

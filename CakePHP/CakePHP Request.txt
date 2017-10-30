@@ -1,0 +1,16 @@
+
+// Para obtener los valores enviados al controlador lo hacemos de la siguiente manera
+    $this->request->params['controller'];
+    $this->request->param('controller');
+
+    $this->request->pass;
+    $this->request['pass'];   // Yo utilizo esta
+    $this->request->params['pass'];
+
+// Validando el tipo de petición
+    $this->request->is('post');
+
+// Obteniendo información de la petición
+    $request->domain();     // example.org
+    $request->subdomains()  // return ['my', 'dev'] from 'my.dev.example.org'
+    $request->host();       // 'my.dev.example.org'
