@@ -1,0 +1,6 @@
+
+Permite eleminar archivos del repositorio
+  git rm <filename> // <filename> => nombre_del_archivo a eliminar
+
+
+  
