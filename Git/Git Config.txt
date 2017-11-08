@@ -1,0 +1,14 @@
+
+Aca configuraremos nuestro perfil en Git
+
+Cambiar nombre de usuario
+  git config --global user.name "mi_nombre_usuario"  // Aca escribe tu nombre usuario
+
+Cambiar email
+  git congit --global user.email "mi_correo@gmail.com"  // Aca escribe tu correo
+
+
+Para revisar las variables configuradas en Git ejecutamos el comando
+  git config --list  // Nos devolvera un listado de varibles de Git
+
+  
