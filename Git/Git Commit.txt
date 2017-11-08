@@ -1,0 +1,6 @@
+
+Para confirmar nuestros archivos (Hacer un commit) que estan en el staged ejecutamos lo siguiente
+  git commit -m "<descripcion_del_commit>"  // En descripcion del coomit realizaremos una pequeña reseña de lo que realizamos
+
+
+  
