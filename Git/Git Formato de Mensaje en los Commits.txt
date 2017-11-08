@@ -1,0 +1,27 @@
+
+Formato en el cual se deberia escribir la descripcion de los commits
+
+La estructura de los mensajes deberia ser la siguiente:
+  <type>(<scope>): <subject> //   <TIPO>(<ambito>): <asunto> 
+
+Ejemplos
+  FEAT(assets): Se integran los assets para redes sociales.
+  FIX(signin): Se corrige inicio de sesión con facebook.
+
+
+TYPE
+  En el tipo de commit tenemos las siguientes opciones para elegir:
+
+  FEAT  => Es una nueva funcionalidad.
+  FIX   => Cuando se va a subir alguna corrección.
+  DOCS  => Solo para cambios de documentos.
+  STYLE => Solo cuando el cambio no afecta el código o la funcionalidad, solo la estructura.
+  REFACTOR => Mejora en el código.
+
+SCOPE
+  Es el ámbito donde se realizó el cambio, config, web-server, index, módulo, etc.
+
+SUBJECT
+  Contiene la descripción del cambio, se debe utilizar en tiempo presente máximo 100 carácteres.
+
+  
