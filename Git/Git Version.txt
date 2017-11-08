@@ -1,0 +1,6 @@
+
+En la terminal ejecutamos el siguiente comando para comprobar la versión de Git
+
+  git --version  // devolvera => git version 2.8.1.windows.1
+
+  
