@@ -1,0 +1,6 @@
+
+El siguiente comando nos sirve para visualizar el status de nuestros archivos
+  git status  // devolverá el estatus de nuestros archivos
+
+
+  
