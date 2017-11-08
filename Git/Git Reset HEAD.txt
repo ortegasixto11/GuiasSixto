@@ -1,0 +1,6 @@
+
+Quitar archivo de stage(unstage). Esto quitara el archivo del espacio donde lo subiremos a Git en pocas palabras lo excluirá del stage
+  git reset HEAD <nombre_archivo>  // nombre del archivo a excluir
+
+
+  
