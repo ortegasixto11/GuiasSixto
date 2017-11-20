@@ -1,0 +1,134 @@
+
+// Comparacion de Terminologia entre SQL y MongoDB
+
+  SQL = WHERE status != "A" => MongoDB { status: { $ne: "A" } }
+
+
+// SQL Select <colums> FROM Where
+  SQL = SELECT status FROM people WHERE status = "A";
+  MongoDB = db.people.find({}, { status: 1 });
+
+
+// SQL Select * FROM Where
+  SQL = SELECT * FROM people WHERE status = "A";
+  MongoDB = db.people.find({ status: "A" });
+
+
+// SQL Select * FROM Where And
+  SQL = SELECT * FROM people WHERE status = "A" AND edad = 50;
+  MongoDB = db.people.find({ status: "A", edad: 50 });
+
+
+// SQL Select * FROM Where Or
+  SQL = SELECT * FROM people WHERE status = "A" OR edad = 50;
+  MongoDB = db.people.find({ $or: [{status: "A"}, {edad: 50}] });
+
+
+// SQL Select * FROM Where != 
+  SQL = SELECT * FROM people WHERE status = "A";
+  MongoDB = db.people.find({ status: "A" });  
+
+
+// SQL Select * FROM Where >
+  SQL = SELECT * FROM people WHERE edad > 25;
+  MongoDB = db.people.find({ edad: { $gt: 25} });
+
+
+// SQL Select * FROM Where >=
+  SQL = SELECT * FROM people WHERE edad >= 25;
+  MongoDB = db.people.find({ edad: { $gte: 25} });
+
+
+// SQL Select * FROM Where <
+  SQL = SELECT * FROM people WHERE edad < 25;
+  MongoDB = db.people.find({ edad: { $lt: 25} });
+
+
+// SQL Select * FROM Where <=
+  SQL = SELECT * FROM people WHERE edad <= 25;
+  MongoDB = db.people.find({ edad: { $lte: 25} });
+
+
+// SQL Select * FROM Where Like
+  SQL = SELECT * FROM people WHERE user_id like "%bc%";
+  MongoDB = db.people.find({ edad: /bc/ });
+  MongoDB = db.people.find({ edad: { $regex: /bc/} });
+
+
+// SQL Select * FROM Where Like
+  SQL = SELECT * FROM people WHERE user_id like "%bc%";
+  MongoDB = db.people.find({ edad: /bc/ });
+  MongoDB = db.people.find({ edad: { $regex: /bc/} });
+
+
+  SQL = SELECT * FROM people WHERE user_id like "bc%";
+  MongoDB = db.people.find({ edad: /^bc/ });
+  MongoDB = db.people.find({ edad: { $regex: /^bc/} });
+
+
+// SQL Select * FROM Order By
+  SQL = SELECT * FROM people ORDER BY user_id ASC;
+  MongoDB = db.people.find().sort({user_id: 1});
+
+  SQL = SELECT * FROM people ORDER BY user_id DESC;
+  MongoDB = db.people.find().sort({user_id: -1});
+
+
+// SQL Select COUNT *
+  SQL = SELECT COUNT(*) FROM people;
+  MongoDB = db.people.count();
+  MongoDB = db.people.find().count();
+
+
+// SQL Select COUNT(Column)
+  SQL = SELECT COUNT(user_id) FROM people;
+  MongoDB = db.people.count({user_id: {$exist: true}});
+  MongoDB = db.people.find({user_id: {$exist: true}}).count();
+
+
+
+// SQL Select DISTINCT(Column)
+  SQL = SELECT DISTINCT(status) FROM people;
+  MongoDB = db.people.distinct("status");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
