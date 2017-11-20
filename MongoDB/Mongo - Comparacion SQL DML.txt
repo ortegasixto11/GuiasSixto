@@ -1,0 +1,19 @@
+
+// Comparacion de Terminologia entre SQL y MongoDB
+
+
+//SQL Insert
+  SQL = INSERT INTO people(id, edad, status) VALUES ("01", 45, "A") ;
+  MongoDB = db.people.insertOne({user_id: "01", edad: 45, status: "A"});
+
+
+//SQL Update
+  SQL = UPDATE people SET status = "C" WHERE edad > 25 ;
+  MongoDB = db.people.updateMany({edad: { $gt: 25 }}, {$set: {status: "C"}});
+
+
+//SQL Delete
+  SQL = DELETE FROM people WHERE status = "D";
+  MongoDB = db.people.deleteMany({status: "D"});
+
+
