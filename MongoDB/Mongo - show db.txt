@@ -1,0 +1,6 @@
+
+// Para visualizar todas las DBs que existen 
+  show dbs
+
+// Y luego para seleccionar la DB 
+  use peliculas
