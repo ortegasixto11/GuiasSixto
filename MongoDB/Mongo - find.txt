@@ -1,0 +1,14 @@
+
+// Seleccionar todos los Documentos de la Coleccion
+  db.<Collection>.find()
+
+// Seleccionar con filtro equivale a Where en SQL
+  db.<Collection>.find({<field1>: <value1>, ...})
+  db.peliculas.find({codigo: '002'});
+
+// Seleccionar y mostrar el resultado en formato JSON
+  db.peliculas.find().pretty();
+
+
+
+
