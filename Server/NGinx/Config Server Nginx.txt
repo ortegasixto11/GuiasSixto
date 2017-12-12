@@ -1,0 +1,16 @@
+
+Configurar servidor Nginx
+  Lo que esta dentro del directorio html sera lo que podra servir
+
+Archivo de configuracion
+  nginx/conf/nginx.conf
+
+
+Comandos NGINX
+  Nos situamos en la ruta de nginx
+
+  nginx   => Ejecutamos el servidor
+  nginx -s stop    // Detenemos el servidor
+  nginx -s quit    //
+  nginx -s reload  // Reiniciamos el servidor
+  nginx -s reopen  //
