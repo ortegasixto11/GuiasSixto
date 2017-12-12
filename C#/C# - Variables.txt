@@ -1,0 +1,11 @@
+
+// Crear variables en C#
+
+  // Constantes
+    const string = "Sixto";  // Constante de tipo String
+    const int = 7;           // Constante de tipo Int
+
+  // String
+    string nombre = "Sixto";        // Variable de tipo String
+    string apellido = string.Empty  // Variable de tipo String vacia
+
