@@ -1,0 +1,12 @@
+
+  ## Forzar descarga de archivos
+
+  res.download(path, filename, callback)
+  res.download('/report-12345.pdf') 
+  res.download('/report-12345.pdf', 'sixto.pdf')
+  res.download('/report-12345.pdf', 'sixto.pdf', function(err){ })
+
+
+
+
+
