@@ -1,0 +1,9 @@
+
+  ## Send
+
+  res.send(body)
+  res.send({message: 'Sixto'})
+  res.send('<p>Hola Mundo</p>')
+  res.status(200).send({status: 'Success'})
+  res.status(404).send({status: 'Not Found'})
+  res.status(500).send({status: 'Something Error'})
