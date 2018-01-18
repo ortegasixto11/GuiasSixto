@@ -1,0 +1,11 @@
+
+  ## JSON
+  
+  res.json(null)
+  res.json({user: 'Sixto'})
+  res.status(500).json({error: 'message'})
+
+
+
+
+
