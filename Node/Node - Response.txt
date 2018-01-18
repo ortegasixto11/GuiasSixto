@@ -1,0 +1,5 @@
+
+  ## Metodos de respuesta en NodeJS
+
+  res.status(500).send({message: "Error"})  // Mensaje de error de servidor
+  res.status(200).send({message: "Exito"})  // Mensaje de exito de servidor
