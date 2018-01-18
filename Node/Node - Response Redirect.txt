@@ -1,0 +1,7 @@
+
+  ## Redirect
+
+  res.redirect(status, path)
+  res.redirect('http://google.com')
+  res.redirect(404, 'http://example.com')
+  res.redirect('/admin')
