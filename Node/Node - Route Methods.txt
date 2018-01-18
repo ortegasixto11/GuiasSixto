@@ -1,0 +1,20 @@
+
+  ## Metodos para las rutas
+
+  var express = require('express')
+  var app = express()
+
+  app.get(routeName, callback)
+  app.get('/users', function(req, res){ })
+
+  app.post(routeName, callback)
+  app.post('/users/create', function(req, res){ })
+
+  app.put(routeName, callback)
+  app.put('/users/update', function(req, res){ })
+
+  app.delete(routeName, callback)
+  app.delete('/users/delete', function(req, res){ })
+
+
+
