@@ -1,0 +1,9 @@
+
+  ## Location
+
+  res.location('/foo/bar')
+  res.location('https://example.com')
+  res.location('back')
+
+
+
