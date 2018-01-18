@@ -1,0 +1,8 @@
+
+  ## Finaliza la respuesta del proceso
+
+  res.end()
+  res.status(404).end()
+
+
+
