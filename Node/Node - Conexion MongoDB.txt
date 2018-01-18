@@ -1,0 +1,14 @@
+// Utilizar nuevas funcionalidades del Ecmascript 6
+'use strict'
+var mongoose = require('mongoose');
+ 
+// Le indicamos a Mongoose que haremos la conexión con Promesas
+mongoose.Promise = global.Promise;
+ 
+// Usamos el método connect para conectarnos a nuestra base de datos
+mongoose.connect('mongodb://localhost:27017/mi_database_mongo', {useMongoClient: true})
+        .then(() => {
+            console.log('La conexión a MongoDB se ha realizado correctamente!!');
+        })
+        .catch(err => console.log(err));
+        // Si no se conecta correctamente mostramos el error
