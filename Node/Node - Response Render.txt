@@ -1,0 +1,10 @@
+
+  ## Render
+
+  res.render(view, params, callback)
+  res.render('index')
+  res.render('index', function(){ })
+  res.render('index', {name: 'Sixto'}, function(){ })
+
+
+
