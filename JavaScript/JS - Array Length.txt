@@ -1,0 +1,3 @@
+
+  ## Retorna el tamaño de un array
+  array.length  // 8
