@@ -1,0 +1,10 @@
+
+  ## Funcion Intervalo repite la ejecución de la función continuamente
+  
+  // Syntax
+  setTimeout(function(){}, delayMiliSeg)
+
+  // Detener Intervalo
+  myVar = setInterval(function, milliseconds);
+  clearInterval(myVar);
+  
