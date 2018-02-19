@@ -1,0 +1,6 @@
+
+  ## Instalar paquetes
+  npm install [nombrePaquete] --save
+
+  ## Instalar paquetes de forma global
+  npm install -g [nombrePaquete]
