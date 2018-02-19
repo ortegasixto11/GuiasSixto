@@ -1,0 +1,3 @@
+
+  ## Compilar con Babel
+  node_modules/.bin/babel src --out-dir dist
