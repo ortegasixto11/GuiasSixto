@@ -1,0 +1,24 @@
+
+  ## Objetos en JavaScript
+  
+  // Syntax
+  const myObjet = { prop: value, prop: function()  }
+
+  // Example
+  const persona = { 
+    nombre: "Sixto", 
+    apellido: "Ortega", 
+    edad: 22,
+    nombreCompleto: function(){
+      return this.nombre + ", " + this.apellido;
+    }
+  }
+
+  // Accesar a sus propiedades
+  persona.nombre;     // Sixto
+  persona["nombre"];  // Sixto
+
+  // Tambien podemos accesar a sus metodos
+  persona.nombreCompleto();  // Sixto, Ortega
+
+
