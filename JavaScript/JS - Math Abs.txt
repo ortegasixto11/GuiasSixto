@@ -1,0 +1,4 @@
+
+  ## Retorna el valor absoluto(positivo) de x
+
+  Math.abs(-4.7);  // returns 4.7
