@@ -1,18 +1,5 @@
-var boton = document.getElementById("miBoton");
-boton.addEventListener("evento", nombreDeLaFuncionEjecutar);
-boton.addEventListener("click", miFuncion);
-
-function miFuncion(){ alert("Bien"); }
-
-Math.floor() devuelve el número entero por debajo de los decimales.
-Math.ceil() devuelve el siguiente número entero arriba de los decimales
-Math.random() devuelve un número aleatorio de 0 a 0.999..
-
-
-// Agregar evento a elemento
-
-  document.getElementById("<id_element>").addEventListener("<event>", callback());
-
-  document.getElementById("id").addEventListener("click", saludo);
-  function saludo(){ alert("Hola Sixto"); }
   
+  ## Agregar eventos a elementos HTML
+  
+  addEventListener("event", callback)
+  document.getElementById("demo").addEventListener("click", function(){})
