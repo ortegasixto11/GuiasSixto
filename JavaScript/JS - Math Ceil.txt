@@ -1,0 +1,4 @@
+
+  ## Retorna el valor de x redondeando por arriba
+
+  Math.ceil(4.4);  // returns 5
