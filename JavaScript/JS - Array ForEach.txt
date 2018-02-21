@@ -1,12 +1,17 @@
 
-// Array ForEach
-  Recorre todos elementos de una Array
+  ## Array ForEach
 
-  let colores = ['Amarillo', 'Azul', 'Rojo']
+  // Recorre todos los elemento de un array
 
-  colores.forEach(function(element){
-    console.log(element)  
-  })
+  let myArray = ['Amarillo', 'Azul', 'Rojo'];
+  
+  myArray.forEach(function(element){
+    console.log(element)
+  });
 
-// array.forEach(element, index)  // element = Amarillo, index = 0
+  myArray.forEach(function(element, index){
+    console.log(element, index)
+  });
+
+
 
