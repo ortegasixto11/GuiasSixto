@@ -1,0 +1,30 @@
+
+  ## Add class => Agregar una o mas clases a el elemento 
+
+    $("#element").addClass("blue");
+    $("#element").addClass("blue red yellow");
+
+
+  ## Remove class => Remover una o mas clases del elemento
+
+    $("#element").removeClass("blue");
+
+
+  ## toggleClass
+
+    $("#element").toggleClass("blue");
+
+
+  ## Obtiene las clases del elemento
+
+    $("#element").css("background-color");
+
+
+  ## Envia la clase nueva para el elemento
+
+    $("#element").css("background-color", "black");    
+
+
+  ## Agregar multiples clases a el elemento
+
+    $("#element").css({ "background-color" : "orange", "font-size" : "16px" });    
