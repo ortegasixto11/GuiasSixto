@@ -1,0 +1,4 @@
+
+  ## Remueve los hijos del elemento seleccionado
+
+    $("#element").empty();
