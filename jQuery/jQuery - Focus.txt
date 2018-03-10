@@ -1,0 +1,4 @@
+
+  ## Colocar focus a elemento 
+
+  $("#element").focus();
