@@ -1,16 +1,16 @@
 
-// Eliminar un Documento
-  db.<collection>.deleteOne(<condition>);
-  db.peliculas.deleteOne({status: 'Inactive'});
+  ## Eliminar un Documento
+   db.<collection>.deleteOne(<condition>);
+   db.peliculas.deleteOne({status: 'Inactive'});
 
-// Eliminar Multiples Documentos
-  db.<collection>.deleteMany();             // Truncate Table
-  db.<collection>.deleteMany(<condition>);  // Delete Where
+  ## Eliminar Multiples Documentos
+   db.<collection>.deleteMany();             // Truncate Table
+   db.<collection>.deleteMany(<condition>);  // Delete Where
 
   db.peliculas.deleteMany({precio: '99'});
 
-// Resumen
-  deleteOne()  => Eliminar un Documento
-  deleteMany() => Eliminar Multiples Documentos
+  ## Resumen
+   deleteOne()  => Eliminar un Documento
+   deleteMany() => Eliminar Multiples Documentos
 
 
