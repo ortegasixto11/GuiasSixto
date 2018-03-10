@@ -1,0 +1,11 @@
+
+  ## Cuando el elemento este listo
+
+  $(document).ready(function(){
+    // Se ejecuta cuando el elemento este listo
+  });
+
+
+  $(function(){
+    // Metodo corto y recomendado para la version 3.x
+  });
