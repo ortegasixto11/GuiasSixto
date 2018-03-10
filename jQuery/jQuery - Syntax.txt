@@ -1,0 +1,11 @@
+
+  ## Como funciona jQuery
+
+  //  $(selector).action();
+
+  // $ => define / accesa jQuery
+  // selector = > encuentra los elementos HTML
+  // action => acciones que ejecutaran los elementos
+
+
+  
