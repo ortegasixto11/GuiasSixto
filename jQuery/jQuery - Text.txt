@@ -1,0 +1,7 @@
+
+  ## Retorna el texto del elemento
+  //  $("#element").text();
+
+
+  ## Modifica el texto del elemento
+  //  $("#element").text("Hellow World");
