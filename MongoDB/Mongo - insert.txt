@@ -1,19 +1,19 @@
 
-// Para insertar un unico registro
-  db.<collection>.insertOne({});  // Nombre de la coleccion
-  db.peliculas.insertOne({codigo : '001', titulo: 'La Liga de Justicia'});
+  ## Para insertar un unico registro
+   db.<collection>.insertOne({});  // Nombre de la coleccion
+   db.peliculas.insertOne({codigo : '001', titulo: 'La Liga de Justicia'});
 
 
-// Para insertar multiples registros
-  db.<collection>.insertMany([{}, {}, {}]);
-  db.peliculas.insertMany([{codigo : '01', titulo: 'Prueba 1'}, {codigo : '02', titulo: 'Prueba 2'}]);
+  ## Para insertar multiples registros
+   db.<collection>.insertMany([{}, {}, {}]);
+   db.peliculas.insertMany([{codigo : '01', titulo: 'Prueba 1'}, {codigo : '02', titulo: 'Prueba 2'}]);
 
 
-// Para insertar registro
-  db.<collection>.insert({});  // Nombre de la coleccion
-  db.peliculas.insert({codigo : '001', titulo: 'La Liga de Justicia'});
+  ## Para insertar registro
+   db.<collection>.insert({});  // Nombre de la coleccion
+   db.peliculas.insert({codigo : '001', titulo: 'La Liga de Justicia'});
 
 
-// Resumen 
-  Podemos utilizar insert({}) e insertOne({}) => Para registrar un documento
-  Podemos utilizar insertMany([{}, {}, {}])   => Para insertar multiples documentos
+  ## Resumen 
+   Podemos utilizar insert({}) e insertOne({}) => Para registrar un documento
+   Podemos utilizar insertMany([{}, {}, {}])   => Para insertar multiples documentos
