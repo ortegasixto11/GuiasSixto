@@ -1,28 +1,23 @@
 
-// Comparacion de Terminologia entre SQL y MongoDB
-
-  SQL database => MongoDB = database
-  SQL table    => MongoDB = collection
-  SQL row      => MongoDB = document or BSON Document
-  SQL column   => MongoDB = field
-  SQL joins    => MongoDB = $lookup embeded documents
-
+  ## Comparacion de Terminologia entre SQL y MongoDB
+   SQL database => MongoDB = database
+   SQL table    => MongoDB = collection
+   SQL row      => MongoDB = document or BSON Document
+   SQL column   => MongoDB = field
+   SQL joins    => MongoDB = $lookup embeded documents
   
-//SQL Create Table
-  SQL = create table people(id INT NOT NULL AUTO_INCREMENT, edad Number, status char(1), PRIMARY KEY(id));
-  MongoDB = db.people.insertOne({user_id: "123", edad: 55, status: "A"});
+  ## SQL Create Table
+   SQL = create table people(id INT NOT NULL AUTO_INCREMENT, edad Number, status char(1), PRIMARY KEY(id));
+   MongoDB = db.people.insertOne({user_id: "123", edad: 55, status: "A"});
 
+  ## SQL Add Column
+   SQL = ALTER TABLE people ADD COLUMN join_date DATETIME;
+   MongoDB = db.people.updateMany({}, {$set: {join_date: new Date()}});
 
-//SQL Add Column
-  SQL = ALTER TABLE people ADD COLUMN join_date DATETIME;
-  MongoDB = db.people.updateMany({}, {$set: {join_date: new Date()}});
+  ## SQL Drop Column
+   SQL = ALTER TABLE people DROP COLUMN join_date DATETIME;
+   MongoDB = db.people.updateMany({}, {$unset: {"join_date": ""}});
 
-
-//SQL Drop Column
-  SQL = ALTER TABLE people DROP COLUMN join_date DATETIME;
-  MongoDB = db.people.updateMany({}, {$unset: {"join_date": ""}});
-
-
-//SQL Drop Table
-  SQL = DROP TABLE people;
-  MongoDB = db.people.drop();
+  ## SQL Drop Table
+   SQL = DROP TABLE people;
+   MongoDB = db.people.drop();
