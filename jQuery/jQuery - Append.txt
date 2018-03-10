@@ -1,0 +1,4 @@
+
+  ## Inserta contenido AL FINAL del elemento
+
+    $("#element").append("Algun texto");
