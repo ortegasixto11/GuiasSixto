@@ -1,0 +1,4 @@
+
+  ## Remueve el elemento y todos sus hijos
+
+    $("#element").remove();
