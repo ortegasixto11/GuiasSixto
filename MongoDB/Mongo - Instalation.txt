@@ -1,0 +1,16 @@
+ - Ran Node.js command prompt as Administrator
+ - Made a C:\data\db directory
+ - Ran "cd C:\Program Files\MongoDB\Server\3.2\bin" command
+ - Executed "mongod --storageEngine=mmapv1 --dbpath C:\data\db"
+
+
+
+ - Luego de haber instalado mongo debemos crear una carpeta para alojar las dbs
+ - La carpeta se creara en la ruta C:\data\db
+
+  ## Para ejecutar el demonio/servicio de mongo
+  $ C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe
+
+ 
+  ## Para ejecutar MongoDB
+  $ C:\Program Files\MongoDB\Server\3.2\bin\mongo.exe
