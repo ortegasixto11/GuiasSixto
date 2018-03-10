@@ -1,0 +1,19 @@
+
+  ## Obtener la propiedad del elemento
+    $("#element").prop("class");
+
+
+  ## Agregarle propiedad a el elemento
+    $("#element").prop("class", "test");
+
+
+  ## Agregar multiples propiedades
+    $("#element").prop({
+      "class" : "text-center",
+      "title" : "Hellow World"
+    });
+
+  ## Callback function luego de agregar propiedad
+    $("#element").prop("class", function(i, originValue){
+      return originValue + "jquery";
+    });
