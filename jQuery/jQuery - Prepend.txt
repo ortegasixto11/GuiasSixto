@@ -1,0 +1,4 @@
+
+  ## Inserta contenido AL COMIENZO del elemento
+
+    $("#element").prepend("Algun texto");
