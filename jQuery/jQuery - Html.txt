@@ -1,0 +1,7 @@
+
+  ## Obtener el HTML del elemento
+  //  $("#element").html();
+
+
+  ## Modifica el HTML del elemento
+  //  $("#element").html("<b> Hellow World </b>");
