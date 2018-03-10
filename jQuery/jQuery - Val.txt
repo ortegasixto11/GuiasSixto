@@ -1,0 +1,7 @@
+
+  ## Obtener el valor del elemento
+  //  $("#element").val();
+
+
+  ## Enviar valor del elemento
+  //  $("#element").val("Hellow World");
