@@ -1,0 +1,32 @@
+
+  ## Manejar eventos
+
+  // Sintaxis
+  $("#demo").click();  // Ejecutara el evento click de #demo
+
+  $("#demo").click(function(){
+    // callback
+  });
+
+  -- Mouse Events
+   click
+   dblclick
+   mouseenter
+   mouseleave
+
+  -- keyboard Events
+   keypress
+   keydown
+   keyup
+
+  -- Form Events
+   submit
+   change
+   focus
+   blur
+
+  -- Document / Window
+   load
+   resize
+   scroll
+   unload
