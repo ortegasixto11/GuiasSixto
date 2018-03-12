@@ -1,0 +1,23 @@
+
+  ## Ajax con jQuery
+
+  $.ajax(
+    type: "GET | POST | PUT | DELETE ",
+    url: "url",
+    beforeSend: function(){
+      // Antes de enviar la peticion
+    },
+    contentType: "application/x-www-form-urlencoded",
+    data: {
+      // datos a ser enviados al servidor en formato objeto
+    },
+    error: function(xhr, status, error){
+      // If has error
+    },
+    success: function(result, status, xhr){
+      // Todo exitoso
+    },
+    complete: function(xhr, status){
+      // Si exite error o exito 
+    }
+  );
