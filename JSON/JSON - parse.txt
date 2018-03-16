@@ -1,22 +1,26 @@
 
-// Esta función convirte los datos en un objeto JavaScript - dado que el servidor nos devuelve siempre una cadena
+  ## Deserealiza un JSON a objeto
 
-Ej
+  var data = "{"name":"John", "age":30, "city":"New York"}";  
+  var result = JSON.parse(data);
 
-'{ "name":"John", "age":30, "city":"New York"}'
-Use the JavaScript function JSON.parse() to convert text into a JavaScript object:
+  // Ahora result sera un objeto 
 
-var obj = JSON.parse('{ "name":"John", "age":30, "city":"New York"}');
+  console.log(result);
 
-// Excepciones
-Los objetos de fecha no están permitidos en JSON, si necesitamos incluir una fecha la escribimos como una cadena,
-y mas tarde la podemos convertir en un objeto de fecha nuevamente.
+  {
+    name: "John",
+    age: 30,
+    city: "New York"
+  }
 
-Ej
 
-var text = '{ "name":"John", "birth":"1986-12-14", "city":"New York"}';
-var obj = JSON.parse(text);
-obj.birth = new Date(obj.birth);
+  // Excepciones
+  Los objetos de fecha no están permitidos en JSON, si necesitamos incluir una fecha la escribimos como una cadena,
+  y mas tarde la podemos convertir en un objeto de fecha nuevamente.
 
-document.getElementById("demo").innerHTML = obj.name + ", " + obj.birth;
+  Example
 
+  var text = '{ "name":"John", "birth":"1986-12-14", "city":"New York"}';
+  var obj = JSON.parse(text);
+  obj.birth = new Date(obj.birth);
