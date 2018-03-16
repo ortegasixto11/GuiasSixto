@@ -1,0 +1,6 @@
+
+  ## Retorna el caracter de la posicion especifica
+
+  Example
+  var str = "HELLO WORLD";
+  str.charAt(0);            // returns H
