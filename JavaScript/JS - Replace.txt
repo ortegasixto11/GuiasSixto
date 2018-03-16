@@ -1,0 +1,9 @@
+
+  ## String Replace
+
+  // Reemplaza un valor especifico 
+
+  Example
+  str = "Please visit Microsoft!";
+  var n = str.replace("Microsoft", "W3Schools");
+
