@@ -1,0 +1,13 @@
+
+  ## Convierte un string a float
+
+
+  The parseFloat() Method
+  parseInt() parses a string and returns a whole number. Spaces are allowed. Only the first number is returned:
+
+  Example
+  parseFloat("10");         // returns 10
+  parseFloat("10.33");      // returns 10
+  parseFloat("10 20 30");   // returns 10
+  parseFloat("10 years");   // returns 10
+  parseFloat("years 10");   // returns NaN 
