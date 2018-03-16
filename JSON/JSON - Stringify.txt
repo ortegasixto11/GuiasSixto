@@ -1,0 +1,16 @@
+
+  ## Convierte un objeto a JSON
+
+  var data = {
+    name: "Sixto",
+    edad: 25,
+    city: "Valencia"
+  };
+
+  var json = JSON.stringify(data);
+
+  // Ahora data es un objeto JSON
+
+  console.log(json);
+
+  "{ 'name': 'Sixto', 'edad': '25', 'city': 'Valencia' }"
