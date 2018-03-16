@@ -1,0 +1,6 @@
+
+  ## Retorna el tamaño de un string
+
+  Example
+  var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var sln = txt.length;
