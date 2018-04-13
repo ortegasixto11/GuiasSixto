@@ -1,0 +1,12 @@
+
+  ## Instancia de Vue
+  
+  new Vue({
+    el: "#app",
+    data: {
+      myProp: ""
+    },
+    methods: {
+    
+    }
+  })
