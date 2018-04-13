@@ -1,0 +1,9 @@
+
+Comando para enviar archivo de /sdcard - C:\
+  adb pull /sdcard/fenixmobile.db "C:\Users\TecFenix\Documents"
+
+Comando para enviar archivo de C:\ - /sdcard
+  adb push "C:\Users\TecFenix\Documents\fenixmobile.db" /sdcard
+
+Ruta donde se encuentra el ADB
+  C:\Users\TecFenix\AppData\Local\Android\sdk\platform-tools
