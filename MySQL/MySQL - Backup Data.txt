@@ -1,0 +1,20 @@
+
+  ## Backup Data 
+
+  // Comando a utilizar
+  mysqldump -u [username] -p[password] [database_name] > [route_file_to_export].sql;  
+  mysqldump -u root -p123456 mybd > mybackup.sql
+
+
+  // Backup multiple BD
+  mysqldump -u [username] -p[password] --databases [database_name_1] [database_name_2] > [route_file_to_export].sql;
+  mysqldump -u root -p123456 --databases mybd_1 mybd_2 > mybackup.sql
+
+
+  // Backup all databases
+  mysqldump -u [username] -p[password] --all-databases > [route_file_to_export].sql;
+  mysqldump -u root -p123456 --all-databases > mybackup.sql
+
+  // Backup specific table
+  mysqldump -u [username] -p[password] [database_name] [table_name] > [route_file_to_export].sql;
+  mysqldump -u root -p123456 mybd1 mytable1 > mybackup.sql
