@@ -1,0 +1,17 @@
+
+  ## Ramas en Git
+
+  // Crear una nueva Rama y posicionarse en ella
+  $ git checkout -b [nombre_rama]
+
+  // Volver a la rama principal
+  $ git checkout master
+
+  // Borrar una Rama
+  $ git branch -d [nombre_rama]
+
+  // Fusionar Ramas
+  $ git merge [nombre_rama]
+
+  // Ver diferencias entre Ramas
+  $ git diff [rama_1] [rama_2]
