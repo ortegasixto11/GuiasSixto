@@ -1,0 +1,9 @@
+
+  ## Creamos nuestro repositorio de Git en nuestra PC
+
+  // Primero creamos una carpeta en donde vamos a desarrollar nuestro proyecto 
+     y luego dentro de ella ejecutamos lo siguiente
+
+  $ git init
+
+  
