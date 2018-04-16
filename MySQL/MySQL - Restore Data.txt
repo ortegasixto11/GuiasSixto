@@ -1,0 +1,13 @@
+
+  ## Restore Data
+
+  // Command
+  mysql -u [username] -p[password] [database_name] < [file_to_restore].sql
+  mysql -u root -p123456 mydb1 < mybackup.sql
+
+  // Nota
+  Antes de ejecutar el comando de restauracion debemos de crear la BD antes
+  create database [database_name]
+  create database mydb1
+
+    
