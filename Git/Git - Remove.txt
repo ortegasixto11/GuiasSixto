@@ -1,0 +1,6 @@
+
+  ## Eliminar archivos del repositorio
+
+  $ git rm [filename]
+
+  
