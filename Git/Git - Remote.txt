@@ -1,0 +1,3 @@
+
+  ## Sincronizar el proyecto remoto a tu local
+  $ git remote add origin https://miguel0007@bitbucket.org/miguel0007/plan_ahorro.git
