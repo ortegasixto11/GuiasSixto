@@ -1,0 +1,3 @@
+
+  ## Recibir los datos del repositorio
+  $ git pull origin master
