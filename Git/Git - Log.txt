@@ -1,0 +1,3 @@
+
+  ## Visualizar el historial de los commits
+  $ git log
