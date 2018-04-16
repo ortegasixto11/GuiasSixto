@@ -1,0 +1,11 @@
+
+  ## Agregar archivos a stage
+
+  // Uno por Uno
+  $ git add [nombre_archivo]
+
+  // Multiple
+  $ git add .
+
+
+  
