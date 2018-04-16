@@ -1,0 +1,11 @@
+
+  ## Configuraciones de git
+
+  // Nombre de Usuario
+  $ git config --global user.name "username"
+
+  // Email
+  $ git config --global user.email "mi_email@gmail.com"
+
+  // Obtener las configuraciones de git
+  $ git config --list
