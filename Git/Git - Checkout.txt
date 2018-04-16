@@ -1,0 +1,10 @@
+
+  ## Para volver a versiones anteriores
+
+  $ git checkout [numero_commit]
+  
+  // Revertir cambios antes de hacer el commit
+  $ git checkout -- [filename]
+
+  // Cambiar de Rama
+  $ git checkout [nombre_rama]
