@@ -1,0 +1,4 @@
+
+  ## Quitar archivo de stage (unstage)
+
+  $ git reset HEAD [filename]  
