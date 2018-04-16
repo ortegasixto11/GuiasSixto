@@ -1,7 +1,0 @@
-
-Agregar archivos a staged o como le llamo yo en proceso(para enviar a Git)
-  git add <nombre_archivo>  // para agregar un archivo
-  git add .                 // para agregar todos los archivos
-
-
-  

@@ -1,7 +1,0 @@
-
-Permite descartar los cambios en un archivo
-  git checkout -- <filename> // <filename> nombre_del_archivo
-  
-
-
-  
