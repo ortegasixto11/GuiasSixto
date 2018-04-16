@@ -1,0 +1,3 @@
+
+  ## Enviar archivos al repositorio luego de hacer el/los commits
+  $ git push origin master
