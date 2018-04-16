@@ -1,0 +1,7 @@
+
+  ## Para confirmar los archivos que esten en stage (Hacer commit)
+
+  $ git commit -m [descripcion_commit]
+
+
+  
