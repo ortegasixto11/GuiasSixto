@@ -1,0 +1,3 @@
+
+  ## Obtener el status de los archivos del repositorio
+  $ git status  
