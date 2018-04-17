@@ -1,0 +1,11 @@
+
+  ## Alterar la Estructura de la Tabla
+
+  // Add Column
+  $ ALTER TABLE [table_name] ADD column_name datatype;
+
+  // Drop Column
+  $ ALTER TABLE [table_name] DROP COLUMN [column_name];
+
+  // Alter Column
+  $ ALTER TABLE [table_name] ALTER COLUMN [column_name] datatype;
