@@ -1,0 +1,4 @@
+
+  ## Vaciar una Tabla
+
+  $ TRUNCATE TABLE [table_name];
