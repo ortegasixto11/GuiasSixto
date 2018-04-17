@@ -1,0 +1,9 @@
+
+  ## Create Database
+  
+  $ CREATE DATABASE [database_name];
+  $ CREATE DATABASE miDB;
+
+
+  // Mostrar las Bases de Datos
+  $ SHOW DATABASES;
