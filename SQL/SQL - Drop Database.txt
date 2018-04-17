@@ -1,0 +1,6 @@
+
+  ## Eliminar una Base de Datos
+
+  $ DROP DATABASE [database_name];
+  $ DROP DATABASE miBD;
+
