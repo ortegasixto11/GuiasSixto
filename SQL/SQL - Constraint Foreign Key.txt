@@ -1,0 +1,16 @@
+
+  ## Restriccion Foreign Key
+
+  // Foreign Key
+  $ CREATE TABLE [table_name] (
+      id int NOT NULL PRIMARY KEY, 
+      nombre varchar(50) NOT NULL, 
+      CONSTRAINT [alias] FOREIGN KEY ([column_foreign]) REFERENCES [table_foreign]([column_primary_key]) 
+    );
+
+  // Alter Table Foreign Key
+  $ ALTER TABLE [table_name] ADD FOREIGN KEY (personas_id) REFERENCES [table_foreign](id);
+
+
+  // Drop Foreign Key
+  $ ALTER TABLE [table_name] DROP FOREIGN KEY [column_foreign];
