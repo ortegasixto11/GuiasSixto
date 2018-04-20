@@ -1,0 +1,7 @@
+
+  ## Seleccionar Registros de una Tabla
+
+  $ SELECT [column1, column2, ...] FROM [table_name];
+
+  // Seleccionar valores distintos
+  $ SELECT DISTINCT [column1, column2] FROM [table_name];
