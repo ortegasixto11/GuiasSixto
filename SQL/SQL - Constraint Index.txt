@@ -1,0 +1,19 @@
+
+  ## Constraint Index
+  -- Los indices son usados para retornar datos mas rapidamente
+
+  // Create Index
+  $ CREATE INDEX [index_name] ON [table_name] (column_name)
+
+
+  // Create Unique Index
+  $ CREATE UNIQUE INDEX [index_name] ON [table_name] (column_name)
+
+
+  // Crear Index Compuesto
+  $ CREATE INDEX [index_name] ON [table_name] (column_name1, column_name2)
+
+
+  // Drop Index
+  $ ALTER TABLE [table_name] DROP INDEX [index_name]
+  
