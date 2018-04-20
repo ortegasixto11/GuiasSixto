@@ -1,0 +1,5 @@
+
+  ## Restriccion Unique
+
+  // No permite que se ingresen valores repetidos en la columna
+  $ CREATE TABLE personas ( id varchar(50) NOT NULL UNIQUE );
