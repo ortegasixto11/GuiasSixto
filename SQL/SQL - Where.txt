@@ -1,0 +1,27 @@
+
+  ## Where es usado para filtrar registros
+
+  $ SELECT [column1, column2] FROM [table_name] WHERE [condicion];
+
+  // Condicion Igual
+  $ WHERE [column] = [value] 
+
+
+  // Condicion Diferente
+  $ WHERE [column] <> [value]
+
+
+  // Condicion Mayor Que
+  $ WHERE [column] > [value]
+
+
+  // Condicion Menor Que
+  $ WHERE [column] < [value]
+
+
+  // Condicion Mayor Igual
+  $ WHERE [column] >= [value]
+
+  // Condicion Menor Igual
+  $ WHERE [column] <= [value]
+
