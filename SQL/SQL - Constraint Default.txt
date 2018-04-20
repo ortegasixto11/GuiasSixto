@@ -1,0 +1,19 @@
+
+  ## Constraint Default
+  -- Valor por defecto en una columna
+
+  // SQL Default on Create Table
+  $ CREATE TABLE [table_name] (
+      id int NOT NULL,
+      nombre varchar(100) NOT NULL,
+      edad int DEFAULT 0,
+    ); 
+
+
+  // SQL Check on Alter Table
+  $ ALTER TABLE [table_name] ALTER COLUMN [column_name] SET DEFAULT [value]
+
+
+  // Drop Check 
+  $ ALTER TABLE [table_name] ALTER COLUMN [column_name] DROP DEFAULT
+  
