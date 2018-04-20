@@ -1,0 +1,5 @@
+
+  ## Restriccion Not Null
+
+  // No acepta valores nulos o vacios en la columna
+  $ CREATE TABLE personas ( nombre varchar(50) NOT NULL );
