@@ -1,0 +1,21 @@
+
+  ## Constraint Check
+  -- Limita la columna en un rango predeterminado
+
+  // SQL Check on Create Table
+  $ CREATE TABLE [table_name] (
+      id int NOT NULL,
+      nombre varchar(100) NOT NULL,
+      edad int NOT NULL,
+      city varchar(255) NOT NULL
+      CONSTRAINT [alias] CHECK (edad >= 18 AND city = "Altagracia")
+    ); 
+
+
+  // SQL Check on Alter Table
+  $ ALTER TABLE [table_name] ADD CONSTRAINT [alias] CHECK (edad >= 18 AND city = "Altagracia")
+
+
+  // Drop Check 
+  $ ALTER TABLE [table_name] DROP CONSTRAINT [alias]
+  
