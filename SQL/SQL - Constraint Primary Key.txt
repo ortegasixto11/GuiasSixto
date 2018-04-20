@@ -1,0 +1,25 @@
+
+  ## Restriccion Primary Key
+
+  // Primary Key Simple
+  $ CREATE TABLE [table_name] (
+      id int NOT NULL PRIMARY KEY, 
+      nombre varchar(50) NOT NULL, 
+    );
+
+
+  // Primary Key Compuesto
+  $ CREATE TABLE [table_name] (
+      id int NOT NULL,
+      last_name varchar(100) NOT NULL,
+      firts_name varchar(100) NOT NULL,
+      CONSTRAINT [alias] PRIMARY KEY (id, last_name)
+    );
+
+
+  // Alter Table Primary Key
+  $ ALTER TABLE [table_name] ADD PRIMARY KEY (id);
+
+
+  // Drop Primary Key
+  $ ALTER TABLE [table_name] DROP PRIMARY KEY;
