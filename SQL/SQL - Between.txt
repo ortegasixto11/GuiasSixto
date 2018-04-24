@@ -1,0 +1,6 @@
+
+  ## SQL Between
+  -- PErmite traer registros mediante un rango
+
+  $ SELECT [column_names] FROM [table_name] WHERE [condition] BETWEEN [value1] AND [value2] ;
+
