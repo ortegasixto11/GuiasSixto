@@ -1,0 +1,9 @@
+
+  ## SQL Like
+
+  $ SELECT [column_name] FROM [table_name] WHERE [column_name] LIKE [pattern] ;
+
+  // Ejemplos de pattern
+  $ WHERE [column_name] LIKE "a%"  => Find any values that starts with "a"
+  $ WHERE [column_name] LIKE "%a"  => Find any values that ends with "a"
+  $ WHERE [column_name] LIKE "%a%" => Find any values that have "a" in any position
