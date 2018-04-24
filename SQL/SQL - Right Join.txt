@@ -1,0 +1,7 @@
+
+  ## SQL Right Join
+  -- Muestra todos los registros de Right Table (table2) y los resultados de Left Table (table1). 
+     Los resultados que no coincidan en table1 seran mostrados con valores NULL
+
+  $ SELECT [column_names] FROM [table1] 
+    RIGHT JOIN table2 ON [table1].[column_name] = [table2].[column_name] ;
