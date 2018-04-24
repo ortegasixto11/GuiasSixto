@@ -1,0 +1,5 @@
+
+  ## SQL Group By
+  -- Agrupa el resultado por una columna especifica
+
+  $ SELECT [column_names] FROM [table_name] WHERE [condition] GROUP BY [column_names] ;
