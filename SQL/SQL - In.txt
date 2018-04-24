@@ -1,0 +1,5 @@
+
+  ## SQL In
+
+  $ SELECT [column_name] FROM [table_name] WHERE [column_name] IN ([value1], [value2]) ;
+  $ SELECT [column_name] FROM [table_name] WHERE [column_name] IN ([Select Statement]) ;
