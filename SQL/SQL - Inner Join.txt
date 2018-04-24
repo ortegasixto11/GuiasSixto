@@ -1,0 +1,6 @@
+
+  ## Inner Join
+  -- Muestra los resultados que coincidan en ambas tablas
+
+  $ SELECT [column_names] FROM [table1] 
+    INNER JOIN [table2] [table1].[column_name] = [table2].[column_name] ;
