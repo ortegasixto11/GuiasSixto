@@ -1,0 +1,7 @@
+
+  ## SQL Left Join
+  -- Muestra todos los registros de Left Table (table1) y los resultados de Right Table (table2). 
+     Los resultados que no coincidan en table2 seran mostrados con valores NULL
+
+  $ SELECT [column_names] FROM [table1] 
+    LEFT JOIN table2 ON [table1].[column_name] = [table2].[column_name] ;
