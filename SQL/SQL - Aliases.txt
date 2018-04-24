@@ -1,0 +1,9 @@
+
+  ## SQL Aliases
+  -- Los Alias son utilizados para darle un nombre temporal a tabla y/o columnas
+
+  $ SELECT [column_name] AS [alias_name] FROM [table_name] ;
+  $ SELECT [column_name] FROM [table_name] AS [alias_name] ;
+
+  $ SELECT [column1] AS [alias1], [column2] AS [alias2] FROM [table_name] ;
+ 
