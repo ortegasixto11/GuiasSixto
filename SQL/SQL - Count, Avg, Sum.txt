@@ -1,0 +1,13 @@
+
+  ## Select Count, Avg, Max
+
+  // Select Count => Cuenta el resultado de la columna
+  $ SELECT COUNT([column_name]) FROM [table_name] WHERE [condition] ;
+
+
+  // Select Average => Cuenta el porcentaje del resultado de la columna
+  $ SELECT AVG([column_name]) FROM [table_name] WHERE [condition] ;
+
+
+  // Select Sum => Suma los resultados de la columna
+  $ SELECT SUM([column_name]) FROM [table_name] WHERE [condition] ;
