@@ -1,0 +1,10 @@
+
+  ## Order By
+
+
+  // Ordena los resultados de manera Ascendete
+  $ SELECT [column1, column2] FROM [table_name] ORDER BY column1, column2 ASC;
+
+
+  // Ordena los resultados de manera Descendente
+  $ SELECT [column1, column2] FROM [table_name] ORDER BY column1, column2 DESC;
