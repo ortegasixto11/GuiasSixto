@@ -1,0 +1,15 @@
+
+  ## SQL View => son Tablas Virtuales derivadas de otras Tablas ya creadas
+
+  // Create View
+  $ CREATE VIEW [view_name] AS SELECT [column_name1, column_name2] FROM [table_name] WHERE [condition];
+  $ CREATE VIEW viewClientes AS SELECT id, name, role FROM clientes;
+
+
+  // Update View
+  $ CREATE OR REPLACE VIEW [view_name] AS SELECT [column_name1, column_name2] FROM [table_name] WHERE [condition];
+  $ CREATE OR REPLACE VIEW viewClientes AS SELECT id, name, role FROM clientes;
+
+
+  // Drop View
+  $ DROP VIEW viewClientes; 
