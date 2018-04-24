@@ -1,0 +1,8 @@
+
+  ## Select Min, Select Max => Solo columnas de tipo numerico
+
+  // Select Min
+  $ SELECT MIN([column_name]) FROM [table_name] WHERE [condition]
+
+  // Select Max
+  $ SELECT MAX([column_name]) FROM [table_name] WHERE [condition]
