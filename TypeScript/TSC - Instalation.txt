@@ -1,0 +1,8 @@
+
+  ## Instalacion de TypeScript
+
+  -- Primero debes tener instalado Node.js y ejecutar este comando
+  $ npm install -g typescript
+
+  -- Para comprobar la versión de TypeScript ejecutamos el comando
+  $ tsc -v  
