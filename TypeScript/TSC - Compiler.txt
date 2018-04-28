@@ -1,6 +1,0 @@
-
-// Para compilar archivos .ts a .js
-tsc prueba.ts
-
-// Para compilar automáticamente
-tsc -w *.ts

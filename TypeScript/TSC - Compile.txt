@@ -1,0 +1,9 @@
+
+  ## Compilar archivos de TypeScript
+
+  -- Compilar archivos de TypeScript a JavaScript
+  $ tsc prueba.ts
+
+
+  -- Para compilar automáticamente con un Watch
+  $ tsc -w *.ts
