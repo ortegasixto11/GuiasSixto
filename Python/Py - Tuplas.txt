@@ -1,0 +1,14 @@
+
+  ## Tuplas
+
+  ** Tuplas se definen entre parentesis
+  ** Tuplas aceptan cualquier tipo de pago, pero despues de ser definidas no se pueden cambiar sus valores
+
+  -- Declarando una Tupla
+  $ listado = ('abcd', 123, 2.3)
+  
+
+  -- Acceder a los elementos de la Tupla
+  $ listado[1]   // returns 123
+
+  
