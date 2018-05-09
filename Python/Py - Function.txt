@@ -1,0 +1,5 @@
+
+  ## Funciones en Python
+
+  def [function_name]([parameters]):
+    print('Hola desde la funcion')
