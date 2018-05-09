@@ -1,0 +1,14 @@
+
+  ## Listas
+
+  ** Listas se definen entre corchetes
+  ** Listas aceptan cualquier tipo de pago
+
+  -- Declarando una Lista
+  $ listado = ['abcd', 123, 2.3 ]
+  
+
+  -- Acceder a los elementos de la Lista
+  $ listado[1]   // returns 123
+
+  
