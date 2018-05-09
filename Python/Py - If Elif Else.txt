@@ -1,0 +1,14 @@
+
+  ## Condicional If
+
+  -- Syntax
+
+  if condition:
+    # Code Here!
+
+  elif condition 2:
+    # Code Here!
+
+  else:
+    # Code Here!
+  
