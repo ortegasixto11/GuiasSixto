@@ -1,0 +1,7 @@
+
+  ## Casting
+
+  int(variable)
+  long(variable)
+  float(variable)
+  complex(variable)
