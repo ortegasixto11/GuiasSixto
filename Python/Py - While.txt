@@ -1,0 +1,9 @@
+
+  ## Bucle While
+
+  -- Syntax
+
+  while (condition):
+    print('Hellow')
+
+  
