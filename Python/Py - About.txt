@@ -1,0 +1,8 @@
+
+  ## Acerca de Python
+
+  -- Extenciones de Archivos
+  .py
+
+  -- Ejecutar Archivos
+  $ python myFile.py
