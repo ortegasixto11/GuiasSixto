@@ -1,0 +1,4 @@
+
+  ## Imprimir texto
+
+  $ print("Hello", "Sixto")
