@@ -1,0 +1,18 @@
+
+  ## Diccionarios
+
+  ** Diccionarios se definen entre llaves
+  ** Diccionarios son agrupaciones de datos mediante una llave - valor
+
+  -- Declarando un Diccionario
+  $ listado = {"nombre": "Sixto Ortega", "edad": 22}
+  
+
+  -- Acceder a los elementos de la Diccionario
+  $ listado["edad"]   // returns 22
+
+
+  -- Eliminar un elemento del Diccionario
+  $ del(listado["edad"])  // elimina la llave edad
+
+  
