@@ -1,0 +1,11 @@
+
+## PHP While
+
+  $ini = 3
+  while($ini == 3){
+    //code
+  }
+
+  while($ini == 3):
+    //sentencias
+  endwhile;
