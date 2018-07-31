@@ -1,0 +1,27 @@
+
+## Variables PHP
+
+  -- Constant
+   const $var = 'Sixto';
+
+  -- String
+   $var = 'Sixto';
+
+  -- Integer
+   $var = 95;
+
+  -- Float
+   $var = 12.5;
+
+  -- Boolean
+   $var = true;
+
+  -- Array
+   $var = array('uno', 'dos', 'tres');
+
+  -- Array Asociative
+   $var = array('fullname' => 'Sixto Ortega', 'age' => 22);
+
+  -- Global
+   $GLOBALS['pais'] = 'Venezuela';
+   echo $pais;  // return Venezuela
