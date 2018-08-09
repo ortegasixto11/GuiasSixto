@@ -1,0 +1,13 @@
+
+## PHP Array
+
+  -- Array Indexado
+  $arreglo = array('uno', 'dos', 'tres');
+  echo $arreglo[2];  // return 'tres'
+
+  -- Array Associative
+  $arreglo = array('nombre' => 'Sixto', 'apellido' => 'Ortega');
+  echo arreglo['apellido'];  // return 'Ortega'
+
+  -- Array Count
+  echo count($myArray);
