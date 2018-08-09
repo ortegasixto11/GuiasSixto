@@ -1,8 +1,8 @@
 
-// Manejo de fechas en PHP
-// date(formato)
+## PHP Date
 
-$fecha = date('d/m/Y, H:i:s'); // 29/11/2017, 05:10:35
+  -- date(format)
+  $fecha = date('d/m/Y, H:i:s'); // return 29/11/2017, 05:10:35
 
 /*
 * Formatos de Fecha
