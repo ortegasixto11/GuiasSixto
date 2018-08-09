@@ -1,0 +1,7 @@
+
+## PHP Mail
+
+  -- mail(para, asunto, mensaje, [adicional headers])
+   mail('hola@gmail.com', 'Prueba mail con PHP', 'Hola Sixto');  
+
+
