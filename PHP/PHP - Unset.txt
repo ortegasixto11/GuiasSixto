@@ -1,0 +1,6 @@
+
+## PHP Unset
+
+
+  -- Elimina variables 
+  unset($myVar);
