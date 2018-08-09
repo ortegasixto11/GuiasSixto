@@ -1,0 +1,6 @@
+
+## PHP Function
+
+  function helloWorld(){
+    // code
+  }
