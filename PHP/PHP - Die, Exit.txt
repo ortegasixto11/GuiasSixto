@@ -1,0 +1,8 @@
+
+## PHP Die - Exit
+
+  -- Termina la ejecución del script imprimiendo la cadena pasada como parametro
+  $ die(string);
+
+  -- Finaliza la ejecución del script
+  $ exit();
