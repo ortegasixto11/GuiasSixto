@@ -1,9 +1,0 @@
-
-// Funciones matematicas en PHP
-
-/*
-* ceil(float)    -> Redondea hacia arriba un número decimal
-* floor(float)   -> Redondea hacia abajo un número decimal
-* round(float)   -> Redondea un número no entero a su valor mas cercano
-* rand(min, max) -> Genera un número random entre los valores pasados
-*/

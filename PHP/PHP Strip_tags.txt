@@ -1,4 +1,0 @@
-
-
-// Elimina todas las marcas html de la cadena
-// strip_tags(cadena)

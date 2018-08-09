@@ -1,3 +1,0 @@
-
-// Elimina espacios en blanco y saltos de linea en toda la cadena
-trim($cadena)

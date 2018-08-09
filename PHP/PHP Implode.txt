@@ -1,3 +1,0 @@
-
-// Genera una cadena uniendo los elementos de un array con la cadena “pegamento”
-// implode(pegamento, array)

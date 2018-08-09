@@ -1,7 +1,0 @@
-
-// Concatenación
-echo "Hola" . " Sixto";
-
-// Interpolación
-$mensaje = "Sixto";
-echo "Hola {$mensaje}, como estás";

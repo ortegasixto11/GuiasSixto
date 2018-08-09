@@ -1,3 +1,0 @@
-
-// Devuelve el número de elementos dentro de un arreglo
-count($array);  // devuelve 4

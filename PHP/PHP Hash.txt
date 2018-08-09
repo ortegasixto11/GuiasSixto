@@ -1,4 +1,0 @@
-
-// Metodos de encriptación en PHP
-
-// md5(string) - devuelve un string encriptado de 32 bits

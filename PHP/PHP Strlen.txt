@@ -1,3 +1,0 @@
-
-// Devuelve el tamaño de la cadena
-    strlen($cadena);

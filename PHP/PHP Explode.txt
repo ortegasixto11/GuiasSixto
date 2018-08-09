@@ -1,6 +1,0 @@
-
-// Genera un array resultado de dividir la cadena en fragmentos delimitados por el separador
-// explode(separador, cadena)
-
-$sx = 'uno, dos, tres, cuatro';
-$array = explode(',', $sx);
