@@ -1,0 +1,5 @@
+
+## PHP Hashing Methods
+
+  -- Md5 => 32 bits
+  echo md5($value);
