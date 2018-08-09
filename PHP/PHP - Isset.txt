@@ -1,0 +1,5 @@
+
+## PHP Isset
+
+  -- Valida si fue declarada una variable. Devuelve true o false
+  echo isset($value);
