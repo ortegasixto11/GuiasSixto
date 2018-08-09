@@ -1,0 +1,5 @@
+
+## PHP Sleep
+
+  -- Hace una pausa en la ejecución del código
+  sleep(seconds);
