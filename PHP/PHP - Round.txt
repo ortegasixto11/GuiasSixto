@@ -1,0 +1,8 @@
+
+## PHP Round
+
+  -- Devuelve el valor redondeado de val con la precision especificada
+  echo round(3.4);  // return 3
+  echo round(3.5);  // return 4
+  echo round(3.6);  // return 4
+  echo round(5.045);  // return 5.05
