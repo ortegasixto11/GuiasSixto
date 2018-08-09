@@ -1,0 +1,20 @@
+
+## PHP If Statement
+
+  if (condition){
+    // code
+  }else if (condition two){
+    // code
+  }else{
+    // code
+  }
+
+
+  -- Another
+  if (condition):
+    // code
+  else if (condition two):
+    // code
+  else:
+    // code
+  endif;
