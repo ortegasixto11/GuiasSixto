@@ -1,0 +1,17 @@
+
+## PHP Convert
+
+  -- Integer
+  $value = (int) 4.36;
+
+  -- Float
+  $value = (float) 12;
+
+  -- Double
+  $value = (double) 15;  
+
+  -- String
+  $value = (string) 29;
+
+  -- Object
+  $myObj = (object) 'Sixto Ortega';
