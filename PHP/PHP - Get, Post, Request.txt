@@ -1,0 +1,11 @@
+
+## PHP Get, Post, Request
+
+  -- Obtiene los valores enviados por el método GET desde un formulario
+  echo $_GET['username'];
+
+  -- Obtiene los valores enviados por el método POST desde un formulario
+  echo $_POST['password'];
+
+  -- Obtiene los valores enviados a través de un formulario sin necesidad de saber el metodo en el cual se enviaron
+  echo $_REQUEST['nombre'];
