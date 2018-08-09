@@ -1,7 +1,6 @@
 
 ## Switch Case
 
-
   $numero = 2;
 
   switch($numero){
