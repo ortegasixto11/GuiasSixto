@@ -8,11 +8,23 @@
   $ listado = {"nombre": "Sixto Ortega", "edad": 22}
   
 
-  -- Acceder a los elementos de la Diccionario
+  -- Acceder a los elementos del Diccionario
   $ listado["edad"]   // returns 22
 
 
   -- Eliminar un elemento del Diccionario
   $ del(listado["edad"])  // elimina la llave edad
+
+
+  -- Agregando elementos al Diccionario
+  $ listado["sexo"] = "Masculino"
+
+
+  -- Verificando si posee la key
+  $ listado.has_key(key)
+
+
+  -- Limpiamos toda la lista
+  $ listado.clear()
 
   
