@@ -1,12 +1,10 @@
 
   ## Condicional If
 
-  -- Syntax
-
-  if condition:
+  if [condition]:
     # Code Here!
 
-  elif condition 2:
+  elif [condition]:
     # Code Here!
 
   else:
