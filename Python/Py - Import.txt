@@ -1,0 +1,10 @@
+
+  ## Import
+
+  -- Importar un modulo(archivo)
+  $ import [filename]
+  $ import Empleado
+
+  
+  -- Importar una propiedad de modulo(archivo)
+  $ from Empleado import salario
