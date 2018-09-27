@@ -11,4 +11,8 @@
   -- Acceder a los elementos de la Lista
   $ listado[1]   // returns 123
 
+
+  -- Add element to list
+  $ listado.append('sixto')
+
   
