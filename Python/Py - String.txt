@@ -1,0 +1,31 @@
+
+  ## String
+
+  -- Convertir a Mayusculas la primera letra de la oración
+  $ string.capitalize()
+
+
+  -- Convertir una cadena a minusculas
+  $ string.lower()
+
+
+  -- Convertir una cadena a mayusculas
+  $ string.upper()
+
+
+  -- Convertir una cadena a formato titulo
+  $ string.title()
+
+
+  -- Rellenar un texto anteponiendo ceros
+  $ string.zfill(12)
+
+
+  -- Concatenar cadena => con "coma" (,)
+  $ print("hola", "sixto")
+
+
+  -- String Interpolation
+  $ print(f'Hola {nombre}')
+
+  
