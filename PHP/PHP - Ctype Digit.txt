@@ -1,0 +1,5 @@
+
+## PHP Ctype Digit
+
+  -- Verifica caracteres numericos
+  echo ctype_digit('12345');  // return true
