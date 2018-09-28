@@ -1,0 +1,5 @@
+
+## PHP File Get Contents
+
+  -- Con esta función podremos leer archivos de texto sin necesidad de ir recorriéndolos línea a línea para obtener su contenido.
+  $texto = file_get_contents('archivo.txt');
