@@ -1,0 +1,35 @@
+
+## PHP String
+
+  -- Concat
+  echo 'Hi ' . 'Sixto!';
+
+  -- Interpolation
+  echo 'Hi {$value} how are you?';
+
+  -- Genera un array con el valor de una cadena
+  echo explode(',', $value);
+
+  -- Genera una cadena uniendo los elementos de un array
+  echo implode(',', $array);
+
+  -- Devuelve el tamaño de la cadena
+  echo strlen($cadena);
+
+  -- Convierte a mayúsculas toda la cadena
+  echo strtoupper($cadena);
+
+  -- Convierte a minúsculas toda la cadena
+  echo strtolower($cadena);
+
+  -- Convierte el primer carácter a mayúsculas de la cadena
+  echo ucfirst($cadena);
+
+  -- Convierte el primer carácter de cada palabra a mayúsculas de la cadena
+  echo ucwords($cadena);
+
+  -- Elimina todas las marcas html de la cadena
+  echo strip_tags($cadena);
+
+  -- Reemplaza una cadena por otra
+  echo str_replace(búsqueda, reemplazo, cadena_texto);
