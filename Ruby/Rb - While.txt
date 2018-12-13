@@ -1,0 +1,7 @@
+
+  ## While Loop
+
+  while [condition] do
+    # Code Here!
+
+  end
