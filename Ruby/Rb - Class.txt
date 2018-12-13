@@ -1,0 +1,34 @@
+
+  ## Class
+
+  class Persona
+    # Initialize
+    def initialize(name, last_name)
+      @per_name = name
+      @per_last_name = last_name
+    end
+
+    # Local Variable
+    _nombre = "Sixto"
+
+    # Instance Variable
+    @nombre = "Sixto"
+
+    # Class Variable
+    @@nombre = "Sixto"
+
+    # Global Variable
+    $nombre = "Sixto"
+
+    # Method 
+    def saludo(name = "Desconocido")
+      puts "Hola #{name}!"
+    end
+  end
+
+  ## Instance Objects
+  obj = Persona.new
+  obj.saludo("Sixto")
+
+  ## Initialize Objects
+  obj = Persona.new("Sixto", "Ortega")
