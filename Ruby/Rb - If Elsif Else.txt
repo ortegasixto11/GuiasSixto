@@ -1,0 +1,13 @@
+
+  ## Condicional If
+
+  if [condition]
+    # Code Here!
+
+  elsif [condition]
+    # Code Here!
+
+  else
+    # Code Here!
+
+  end
