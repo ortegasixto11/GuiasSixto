@@ -1,0 +1,18 @@
+
+  ## Switch Case
+
+  case [expression]
+
+  when [condition]
+    # Code Here!
+
+  when [condition]
+    # Code Here!
+
+  when [condition]
+    # Code Here!
+
+  else
+    # Code Here!
+
+  end
