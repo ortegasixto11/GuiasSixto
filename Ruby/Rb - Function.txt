@@ -1,0 +1,7 @@
+
+  ## Functions
+
+  def function_name():
+    # Code Here!
+
+  end
