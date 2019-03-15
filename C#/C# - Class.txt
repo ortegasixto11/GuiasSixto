@@ -1,0 +1,46 @@
+
+  ## Class Structure
+  
+  public class MyClass
+  {
+  
+    # Fields
+	private string _myField1;
+	private int _myField2;
+	
+	# Propierties
+	public string MyField1 
+	{ 
+	  get{ return _myField1; } 
+	  set{ _myField1 = value; }
+	}
+	public int MyField2 
+	{
+	  get{ return _myField2; } 
+	  set{ _myField2 = value; }
+	}
+	
+    
+	# Auto implemented Propierties
+	public string MyProp1 { get; set; }
+	public int MyProp2 { get; set; }
+	
+	# Construct
+	public MyClass()
+	{
+	  Console.Write("Hellow from Construct");
+	}
+	
+	# Methods
+	public void MyMethod()
+	{
+	  Console.Write("Hellow from Method");
+	}
+	
+  }
+  
+  # Example
+  MyClass obj = new MyClass();
+  obj.MyProp1 = "Valor";
+  obj.MyProp2 = 25;
+  obj.MyMethod();
