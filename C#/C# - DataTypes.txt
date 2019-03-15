@@ -1,0 +1,23 @@
+
+  ## DataTypes
+  
+  # Numeric
+  int   : 32 bits
+  long  : 64 bits 
+  
+  # Floating Point
+  float  : 32 bits (7 digit precision)
+  double : 64 bits (15 digit precision)
+  
+  # High Precision Decimal
+  decimal : 128 bits (25 digit precision)
+  
+  # Boolean
+  bool
+  
+  
+  char
+  string
+  DateTime
+  
+  
