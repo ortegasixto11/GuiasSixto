@@ -1,9 +1,0 @@
-
-// Tipos de datos del lenguaje C#
-int i = 0;
-decimal = 0;
-float = 0;
-double = 0;
-string cadena = "Sixto";
-bool status = true;
-DateTime fecha = new DateTime(); 
