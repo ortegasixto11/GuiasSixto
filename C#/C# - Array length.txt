@@ -1,3 +1,0 @@
-
-// Devuelve el tamaño del arreglo
-arreglo.Length  // Ejemplo 5

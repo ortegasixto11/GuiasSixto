@@ -1,4 +1,0 @@
-Persona[] arreglo = new Persona[5];
-String[] arregloCadena = new String[];
-
-arregloCadena[] = "Hola";
