@@ -1,0 +1,5 @@
+  
+  ## Casting
+  
+  Convert.ToDouble(value);
+  Convert.ToInt32(value);
