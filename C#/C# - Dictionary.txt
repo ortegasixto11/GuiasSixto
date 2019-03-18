@@ -4,6 +4,13 @@
   # Initialization
   Dictionary<TypeKey, TypeValue> myDict = new Dictionary<TypeKey, TypeValue>();
   
+  # Methods
+  Add
+  Remove
+  ContainsKey
+  ContainsValue
+  Clear
+  
   # Example
   Dictionary<string, int> MyDicc = new Dictionary<string, int>();
   MyDicc.Add("Edad", 12);
