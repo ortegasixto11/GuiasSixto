@@ -1,0 +1,9 @@
+
+  ## Enum
+  
+  enum MyEnum
+  {
+    Si,
+	No,
+	TalVez
+  }
