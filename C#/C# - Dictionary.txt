@@ -1,19 +1,11 @@
-
-// Diccionarios en C# son Arreglos Asociativos en PHP
-  Dictionary<TypeKey, TypeValue> miDiccionario = new Dictionary<TypeKey, TypeValue>();
   
+  ## Dictionary
+  
+  # Initialization
+  Dictionary<TypeKey, TypeValue> myDict = new Dictionary<TypeKey, TypeValue>();
+  
+  # Example
   Dictionary<string, int> MyDicc = new Dictionary<string, int>();
-  MyDicc.Add("Edad", 12);  // Añadir valor al diccionario
-
-// Obtener valor del Diccionario
-  MyDicc[key];
+  MyDicc.Add("Edad", 12);
   MyDicc["Edad"];  // return 12
-
-// Validar si el Dicionario contiene la llave
-  if( MyDicc.ContainsKey("KEY") ) // true si contiene false si no contiene la llave
-
-// Eliminar Key del Diccionario
-  MyDicc.Remove("KEY");  // Elimina la llave 
-
-// Recorrer las llaves del Diccionario
-  foreach(var keys in MyDicc.Keys){ Console.WriteLine(keys); }
+  MyDicc.Remove("Edad");
