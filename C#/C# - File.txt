@@ -1,0 +1,12 @@
+
+  ## File
+  
+  # Initialization
+  TextWriter myFile = new StreamWriter("myfile.txt");
+  
+  # Example
+  file.ReadToEnd();
+  file.WriteFile("Hello World");
+  file.Close();
+  
+  
