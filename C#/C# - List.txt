@@ -1,0 +1,27 @@
+
+  ## List
+  
+  # Initializations
+  List<int> intList = new List<int>();
+  List<int> intList = new List<int>(){10, 20, 30};
+  
+  # Getting Values
+  intList[2];
+  
+  # Property
+  List.Count
+  
+  # Methods
+  Add
+  AddRange
+  Clear
+  Contains
+  Find
+  Foreach
+  Insert
+  InsertRange
+  Remove
+  RemoveAt
+  RemoveRange
+  Sort
+  
