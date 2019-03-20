@@ -1,0 +1,21 @@
+
+  ## DataType
+  
+  # Numeric
+  int   : 32 bits
+  long  : 64 bits 
+  
+  # Floating Point
+  float  : 32 bits
+  double : 64 bits
+  
+  # High Precision Decimal
+  java.math.BigDecimal : 128 bits
+  
+  # Boolean
+  boolean
+  
+  
+  char
+  string
+  Date
