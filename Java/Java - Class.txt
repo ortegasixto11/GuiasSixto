@@ -1,0 +1,31 @@
+
+  ## Class
+  
+  public class MyClass{
+  
+    # Variables
+    String myString;
+	int myInt;
+	
+	# Setter
+	public void setMyString(String value){
+	  myString = value;
+	}
+	
+	# Getter
+	public String getString(){
+	  return myString;
+	}
+	
+	# Constructor
+	public MyClass(){
+	  # Code Here!
+	}
+	
+  }
+  
+  # Example
+  MyClass obj = new MyClass();
+  obj.myString = "valor";
+  obj.myInt = 25;
+  obj.myMethod();
