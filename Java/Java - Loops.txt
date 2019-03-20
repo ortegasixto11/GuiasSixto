@@ -1,0 +1,27 @@
+
+  ## Loops
+  
+  # For
+  for (variable initialization; condition; steps)
+  {
+    # Code Here!
+  }
+  
+  # For Enhanced 
+  for (variable declaration : expression)
+  {
+    # Code Here!
+  }
+  
+  # While
+  while (boolean expression)
+  {
+    # Code Here!
+  }
+  
+  # Do While
+  do 
+  {
+    # Code Here!
+  }
+  while (boolean expression);
