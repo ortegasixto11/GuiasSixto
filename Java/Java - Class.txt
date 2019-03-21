@@ -22,6 +22,11 @@
 	  # Code Here!
 	}
 	
+	# Method
+	public void myMethod(){
+	  # Code Here!
+	}
+	
   }
   
   # Example
