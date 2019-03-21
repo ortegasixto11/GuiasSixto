@@ -1,5 +1,11 @@
   
   ## Casting
   
-  Convert.ToDouble(value);
+  Convert.ToString(value);
+  Convert.ToBoolean(value);
+  
   Convert.ToInt32(value);
+  Convert.ToInt64(value);
+  
+  Convert.ToDouble(value);
+  Convert.ToDecimal(value);
