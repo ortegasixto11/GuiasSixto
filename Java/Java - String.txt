@@ -1,0 +1,7 @@
+
+  ## String
+  
+  # Interpolation, Literals
+  System.out.printf("Float value %f", floatVar);
+  System.out.printf("Integer value %d", intVar);
+  System.out.printf("String value %s", stringVar);
