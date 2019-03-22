@@ -1,9 +1,17 @@
 
   ## Enum
   
-  enum MyEnum
+  enum WeekDays
   {
-    Si,
-	No,
-	TalVez
+    SUN,
+	MON,
+	TUE,
+	WED,
+	THU,
+	FRI,
+	SAT
   }
+  
+  # Example
+  WeekDays weekDay = WeekDays.SUN;
+  if(weekDay == WeekDays.SUN)
