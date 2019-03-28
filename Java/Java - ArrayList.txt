@@ -1,11 +1,34 @@
 
-// ArrayList en Java
-
-  ArrayList<Vehiculo> vehiculos = new ArrayList<Vehiculo>();
-  vehiculos.add(new Vehiculo("AAA123", "Mazda"));
-  vehiculos.add(new Vehiculo("BYG123", "Toyota"));
-  vehiculos.add(new Vehiculo("TFY123", "Ford"));
-
-  for(Vehiculo vh : vehiculos){
-    System.out.println(vh.getMatricula());
-  }
+  ## List
+  
+  # Initializations
+  ArrayList myList = new ArrayList();
+  
+  # Setting Values
+  myList.add("B");
+  myList.add("C");
+  myList.add(0, "A");
+  
+  # Getting Values
+  intList[2];
+  
+  # Remove Values
+  myList.remove(2);
+  myList.remove("A");
+  
+  # Methods
+  void add(Object element)
+  boolean add(int index, Object element)
+  boolean addAll(Collection c)
+  boolean addAll(int index, Collection c)
+  void clear()
+  Object clone()
+  boolean contains(Object element)
+  Object get(int index) //Return element
+  int indexOf(Object element) // Return index
+  int lastIndexOf(Object element) // Return index last element
+  Object remove(int index)
+  void removeRange(int fromIndex, int toIndex)
+  int size()
+  
+  
