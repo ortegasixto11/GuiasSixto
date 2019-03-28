@@ -1,5 +1,5 @@
   
-  ## Dictionary
+  ## Dictionary (Key Value)
   
   # Initialization
   Dictionary<TypeKey, TypeValue> myDict = new Dictionary<TypeKey, TypeValue>();
