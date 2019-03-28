@@ -1,8 +1,0 @@
-// Leer datos del teclado con la Clase BufferedReader
-
-
-  BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
-  String texto;
-
-  texto = buffer.readLine();
-
