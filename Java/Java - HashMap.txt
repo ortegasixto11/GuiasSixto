@@ -1,0 +1,23 @@
+  
+  ## HashMap (Key Value)
+  
+  # Initialization
+  HashMap<String, Integer> myMap = new HashMap<String, Integer>();
+  
+  # Methods
+  void clear()
+  boolean containsKey(Object key)
+  boolean containsValue(Object value)
+  Object clone()
+  boolean isEmpty()
+  Object get(Object key)
+  int size()
+  Object put(Object key, Object value)
+  Object remove(Object key)
+  
+  
+  # Example
+  HashMap<String, Integer> myMap = new HashMap<String, Integer>();
+  myMap.put("Edad", 12);
+  myMap.get("Edad");  // return 12
+  myMap.remove("Edad");
