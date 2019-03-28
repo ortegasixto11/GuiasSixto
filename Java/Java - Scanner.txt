@@ -1,17 +1,11 @@
-// Leer datos del teclado con la Clase Scanner
 
-
-import java.util.Scanner;
-
-public class Sixto {
-	public static void main(String[] args) {
-		Scanner leerTeclado = new Scanner(System.in);
-
-		System.out.println("Leer cadena");
-		String cadena = leerTeclado.nextLine();
-
-		System.out.println("Leer entero");
-		int cadena = leerTeclado.nextInt();
-	}
-
-}
+  ## Scanner
+  
+  # Initialization
+  Scanner data = new Scanner(System.in);
+  data.nextLine();
+  data.nextInt();
+  
+  # BufferedReader
+  BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
+  buffer.readLine();
