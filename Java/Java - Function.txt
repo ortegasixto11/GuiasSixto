@@ -1,0 +1,9 @@
+
+  ## Function
+  
+  void myFunc(){
+    # Code Here!
+  }
+  
+  # Example
+  myFunc();
