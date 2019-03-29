@@ -1,18 +1,21 @@
   
   ## Dictionary (Key Value)
   
-  # Initialization
+  -- Initialization
   Dictionary<TypeKey, TypeValue> myDict = new Dictionary<TypeKey, TypeValue>();
   
-  # Methods
-  Add
-  Remove
-  ContainsKey
-  ContainsValue
-  Clear
+  -- Setting Values
+  myDict.Add("Edad", 12);
   
-  # Example
-  Dictionary<string, int> MyDicc = new Dictionary<string, int>();
-  MyDicc.Add("Edad", 12);
-  MyDicc["Edad"];  // return 12
-  MyDicc.Remove("Edad");
+  -- Getting Values
+  myDict["Edad"];  // return 12
+  
+  -- Deleting Values
+  myDict.Remove("Edad");
+  
+  -- Methods
+  void Add(key , value)
+  bool Remove(key);
+  bool ContainsKey(key)
+  bool ContainsValue(value)
+  void Clear()
