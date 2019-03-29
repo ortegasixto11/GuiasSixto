@@ -1,0 +1,14 @@
+
+  ## Array Associative (Key Value)
+
+  -- Initialization
+  $arr = array("one" => 1, "two" => "dos", "three" => 3);
+  
+  -- Setting Values
+  $arr["three"] = 3;
+  
+  -- Getting Values
+  $arr["one"];
+  
+  -- Length
+  count($arr);
