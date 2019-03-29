@@ -4,11 +4,11 @@
   public class MyClass
   {
   
-    # Fields
+    -- Fields
 	private string _myField1;
 	private int _myField2;
 	
-	# Propierties
+	-- Propierties
 	public string MyField1 
 	{ 
 	  get{ return _myField1; } 
@@ -21,17 +21,17 @@
 	}
 	
     
-	# Auto implemented Propierties
+	-- Auto implemented Propierties
 	public string MyProp1 { get; set; }
 	public int MyProp2 { get; set; }
 	
-	# Construct
+	-- Construct
 	public MyClass()
 	{
 	  Console.Write("Hellow from Construct");
 	}
 	
-	# Methods
+	-- Methods
 	public void MyMethod()
 	{
 	  Console.Write("Hellow from Method");
@@ -39,7 +39,7 @@
 	
   }
   
-  # Example
+  -- Example
   MyClass obj = new MyClass();
   obj.MyProp1 = "Valor";
   obj.MyProp2 = 25;
