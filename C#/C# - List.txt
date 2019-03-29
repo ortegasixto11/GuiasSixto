@@ -1,27 +1,30 @@
 
   ## List
   
-  # Initializations
+  -- Initializations
   List<int> intList = new List<int>();
   List<int> intList = new List<int>(){10, 20, 30};
   
-  # Getting Values
+  -- Setting Values
+  intList[2] = 40;
+  
+  -- Getting Values
   intList[2];
   
-  # Property
+  -- Deleting Values
+  intList.Remove(10);
+  intList.RemoveAt(2);
+  
+  -- Property
   List.Count
   
-  # Methods
-  Add
-  AddRange
-  Clear
-  Contains
-  Find
-  Foreach
-  Insert
-  InsertRange
-  Remove
-  RemoveAt
-  RemoveRange
-  Sort
-  
+  -- Methods
+  void Add(element)
+  void AddRange(collection)
+  void Clear()
+  bool Contains(element)
+  void Insert(int index, element)
+  void InsertRange(int index, collection)
+  bool Remove(element)
+  void RemoveAt(int index)
+  void RemoveRange(int index, int count)
