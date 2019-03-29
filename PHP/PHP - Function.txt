@@ -1,6 +1,9 @@
 
-## PHP Function
-
-  function helloWorld(){
-    // code
+  ## Function
+  
+  function myFunc(){
+    # Code Here!
   }
+  
+  -- Example
+  myFunc();
