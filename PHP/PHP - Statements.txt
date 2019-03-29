@@ -1,0 +1,29 @@
+
+  ## Statements
+  
+  -- If
+  if (condition){
+    # Code Here!
+  }
+  else if (condition){
+    # Code Here!
+  }
+  else {
+    # Code Here!
+  }
+  
+  
+  -- Switch
+  switch (expression){
+    case value1: 
+	# Code Here!
+	break;
+	
+	case value2: 
+	# Code Here!
+	break;
+	
+	default:
+	# Code Here!
+	break;
+  }
