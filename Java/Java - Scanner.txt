@@ -1,11 +1,11 @@
 
   ## Scanner
   
-  # Initialization
+  -- Initialization
   Scanner data = new Scanner(System.in);
   data.nextLine();
   data.nextInt();
   
-  # BufferedReader
+  -- BufferedReader
   BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
   buffer.readLine();
