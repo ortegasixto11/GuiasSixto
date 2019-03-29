@@ -1,6 +1,4 @@
 
-## PHP Hello World
-
-  <?php 
-    echo "Hola Sixto"; 
-  ?>
+  ## Hello World
+  
+  echo "Hello World";
