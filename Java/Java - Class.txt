@@ -3,33 +3,33 @@
   
   public class MyClass{
   
-    # Variables
+    -- Variables
     String myString;
 	int myInt;
 	
-	# Setter
+	-- Setter
 	public void setMyString(String value){
 	  myString = value;
 	}
 	
-	# Getter
+	-- Getter
 	public String getString(){
 	  return myString;
 	}
 	
-	# Constructor
+	-- Constructor
 	public MyClass(){
 	  # Code Here!
 	}
 	
-	# Method
+	-- Method
 	public void myMethod(){
 	  # Code Here!
 	}
 	
   }
   
-  # Example
+  -- Example
   MyClass obj = new MyClass();
   obj.myString = "valor";
   obj.myInt = 25;
