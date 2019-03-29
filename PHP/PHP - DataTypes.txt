@@ -1,11 +1,11 @@
 
-## Variables PHP
+  ## DataTypes
 
   -- Constant
-   const $var = 'Sixto';
+   const $MY_CONS = 57;
 
   -- String
-   $var = 'Sixto';
+   $var = "";
 
   -- Integer
    $var = 95;
@@ -23,5 +23,5 @@
    $var = array('fullname' => 'Sixto Ortega', 'age' => 22);
 
   -- Global
-   $GLOBALS['pais'] = 'Venezuela';
-   echo $pais;  // return Venezuela
+   $GLOBALS['PAIS'] = 'Venezuela';
+   echo $PAIS;  // return Venezuela
