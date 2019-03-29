@@ -1,14 +1,14 @@
 
   ## Date
   
-  # Initialization
+  -- Initialization
   Date date = new Date();
   
-  # Formatting
+  -- Formatting
   SimpleDateFormat ft = new SimpleDateFormat("");
   ft.format(date);
   
-  # Codes
+  -- Codes
   y => 2001
   M => July or 07
   d => 12 (Day in month)
