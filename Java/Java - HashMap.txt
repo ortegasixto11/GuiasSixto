@@ -1,10 +1,19 @@
   
   ## HashMap (Key Value)
   
-  # Initialization
+  -- Initialization
   HashMap<String, Integer> myMap = new HashMap<String, Integer>();
   
-  # Methods
+  -- Setting Values
+  myMap.put("Edad", 12);
+  
+  -- Getting Values
+  myMap.get("Edad");  // return 12
+  
+  -- Deleting Values
+  myMap.remove("Edad");
+  
+  -- Methods
   void clear()
   boolean containsKey(Object key)
   boolean containsValue(Object value)
@@ -14,10 +23,3 @@
   int size()
   Object put(Object key, Object value)
   Object remove(Object key)
-  
-  
-  # Example
-  HashMap<String, Integer> myMap = new HashMap<String, Integer>();
-  myMap.put("Edad", 12);
-  myMap.get("Edad");  // return 12
-  myMap.remove("Edad");
