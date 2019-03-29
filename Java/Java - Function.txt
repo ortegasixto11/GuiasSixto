@@ -5,5 +5,5 @@
     # Code Here!
   }
   
-  # Example
+  -- Example
   myFunc();
