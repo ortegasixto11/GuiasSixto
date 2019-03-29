@@ -1,18 +1,18 @@
 
   ## DataType
   
-  # Numeric
+  -- Numeric
   int   : 32 bits
   long  : 64 bits 
   
-  # Floating Point
+  -- Floating Point
   float  : 32 bits
   double : 64 bits
   
-  # High Precision Decimal
+  -- High Precision Decimal
   java.math.BigDecimal : 128 bits
   
-  # Boolean
+  -- Boolean
   boolean
   
   
