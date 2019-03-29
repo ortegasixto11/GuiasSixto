@@ -1,7 +1,7 @@
 
   ## Statements
   
-  # If
+  -- If
   if (condition)
   {
     # Code Here!
@@ -16,7 +16,7 @@
   }
   
   
-  # Switch
+  -- Switch
   switch (expression)
   {
     case value1: 
