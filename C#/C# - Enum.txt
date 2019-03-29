@@ -1,6 +1,7 @@
 
   ## Enum
   
+  -- Initialization
   enum WeekDays
   {
     SUN,
@@ -12,6 +13,6 @@
 	SAT
   }
   
-  # Example
+  -- Example
   WeekDays weekDay = WeekDays.SUN;
   if(weekDay == WeekDays.SUN)
