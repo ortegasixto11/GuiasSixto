@@ -1,22 +1,21 @@
 
   ## List
   
-  # Initializations
+  -- Initialization
   ArrayList myList = new ArrayList();
   
-  # Setting Values
+  -- Setting Values
   myList.add("B");
-  myList.add("C");
   myList.add(0, "A");
   
-  # Getting Values
+  -- Getting Values
   intList[2];
   
-  # Remove Values
+  -- Remove Values
   myList.remove(2);
   myList.remove("A");
   
-  # Methods
+  -- Methods
   void add(Object element)
   boolean add(int index, Object element)
   boolean addAll(Collection c)
@@ -30,5 +29,3 @@
   Object remove(int index)
   void removeRange(int fromIndex, int toIndex)
   int size()
-  
-  
