@@ -1,16 +1,16 @@
 
   ## Array
   
-  # Initializations
-  int[] intArray1 = new int[5];
-  int[] intArray2 = new int[5]{ 1, 2, 3, 4, 5 };
-  int[] intArray3 = { 1, 2, 3, 4, 5 };
+  -- Initializations
+  int[] arr = new int[5];
+  int[] arr = new int[5]{ 1, 2, 3, 4, 5 };
+  int[] arr = { 1, 2, 3, 4, 5 };
   
-  # Setting Values
-  intArray1[2] = 20;
+  -- Setting Values
+  arr[2] = 20;
   
-  # Getting Values
-  intArray1[2];
+  -- Getting Values
+  arr[2];
   
-  # Length
-  intArray1.Length;
+  -- Length
+  arr.Length;
