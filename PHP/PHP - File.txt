@@ -1,0 +1,23 @@
+
+  ## File 
+  
+  -- Open
+  $file = fopen("file.txt", "r");
+  
+  -- Read
+  file_get_contents("file.txt");
+  fread($file);
+  
+  -- Write
+  fwrite($file, "Text");
+  
+  -- Close
+  fclose($file);
+  
+  -- Codes
+  r  => Read only (Situa el puntero al inicio)
+  r+ => Read and Write (Situa el puntero al inicio)
+  w  => Write only (Crea el archivo si no existe y situa el puntero al inicio)
+  w+ => Read and Write only (Crea el archivo si no existe y situa el puntero al inicio)
+  a  => Read only (Crea el archivo si no existe y situa el puntero al final)
+  a+ => Read and Write only (Crea el archivo si no existe y situa el puntero al final)
