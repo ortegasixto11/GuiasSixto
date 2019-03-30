@@ -1,5 +1,8 @@
 
-## PHP Isset
-
+  ## Debugger
+  
+  -- Obtiene el tipo de variable y su valor
+  var_dump($var);
+  
   -- Valida si fue declarada una variable. Devuelve true o false
   echo isset($value);
