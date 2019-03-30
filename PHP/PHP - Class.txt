@@ -1,0 +1,36 @@
+
+  ## Class
+  
+  class MyClass{
+  
+    -- Variables
+    var $my_string;
+	var $my_int;
+	
+	-- Setter
+	function setMyString($value){
+	  $this->my_string = $value;
+	}
+	
+	-- Getter
+	function getMyString(){
+	  return $this->my_string;
+	}
+	
+	-- Constructor
+	function __construct(){
+	  # Code Here!
+	}
+	
+	-- Method
+	function myMethod(){
+	  # Code Here!
+	}
+	
+  }
+  
+  -- Example
+  $obj = new MyClass();
+  $obj->my_string = "valor";
+  $obj->my_int = 25;
+  $obj->myMethod();
