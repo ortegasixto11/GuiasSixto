@@ -1,32 +1,20 @@
 
-## PHP Date
-
-  -- date(format)
-  $fecha = date('d/m/Y, H:i:s'); // return 29/11/2017, 05:10:35
-
-/*
-* Formatos de Fecha
-* 'a' -> am o pm
-* 'A' -> AM o PM
-* 'd' -> Dia del mes en dos digitos con cero adelante
-* 'D' -> Dia de la semana en ingles en formato de 3 letras Ej 'fri'
-* 'F' -> Nombre del mes en ingles Ej 'January'
-* 'h' -> Hora en formato de 12 horas Ej 01 - 12
-* 'H' -> Hora en formato de 24 horas Ej 00 - 23
-* 'g' -> Hora en formato de 12 horas sin ceros adelante Ej 1 - 12
-* 'G' -> Hora en formato de 24 horas sin ceros adelante Ej 0 - 23
-* 'i' -> Minutos en dos digitos Ej 00 - 59
-* 'j' -> Dia del mes sin ceros adelante Ej 1 - 30
-* 'l' -> Dia del mes en ingles completo Ej 'Friday'
-* 'L' -> Boolean que indica si el año es bisiesto
-* 'm' -> Número del mes Ej 01 - 12
-* 'n' -> Número del mes sin ceros adelante Ej 1 - 12
-* 'M' -> Nombre del mes en ingles en tres letras Ej 'Jan'
-* 's' -> Segundos Ej 00 - 59 
-* 'S' -> Sufijo ordinal en ingles para el número del dia Ej (th, nd, st)
-* 't' -> Número de dias para el mes actual Ej 1 - 31
-* 'w' -> Dia de la semana en números Ej 0 = domingo
-* 'Y' -> Año en formato de 4 digitos Ej 2017
-* 'y' -> Año en formato de 2 digitos Ej 17
-* 'z' -> Dia del año Ej 1 - 365
-*/
+  ## Date
+  
+  -- Initialization
+  $fecha = date("d/m/Y, H:i:s");
+  
+  -- Codes
+  a => am (am/pm)
+  A => AM (AM/PM)
+  d => 30 (Day of month)
+  D => fri (Day in Week) => tres letras
+  F => January (Name month)
+  h => 12 (Hour format 12)
+  H => 20 (Hour format 24)
+  i => 50 (Minute)
+  l => Tuesday (Day in Week)
+  m => 12 (Day of month)
+  s => 55 (Seconds)
+  Y => 2001 (Year)
+  z => 360 (Day in Year)
