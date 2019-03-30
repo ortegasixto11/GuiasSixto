@@ -1,0 +1,18 @@
+
+  ## Try Catch
+  
+  try
+  {
+    # Code Here!
+  }
+  catch (Exception ex)
+  {
+    # Code Here!
+  }
+  finally
+  {
+    # Code Here!
+  }
+  
+  throw new Exception("Err");
+  die("Err");
