@@ -1,5 +1,5 @@
 
-## PHP Convert
+  ## Casting
 
   -- Integer
   $value = (int) 4.36;
