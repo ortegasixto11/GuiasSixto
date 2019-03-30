@@ -1,5 +1,0 @@
-
-## PHP Ctype Alpha
-
-  -- Verifica caracteres alfabéticos
-  echo ctype_alpha('sixto'); // return true

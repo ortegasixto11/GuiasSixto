@@ -1,5 +1,0 @@
-
-## PHP Ctype Alnum
-
-  -- Verificar caracteres alfanumericos
-  echo ctype_alnum('av 181'); // return true

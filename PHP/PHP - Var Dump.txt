@@ -1,5 +1,0 @@
-
-## PHP Var Dump
-
-  -- Obtiene el tipo de variable y su valor
-  echo var_dump($var);

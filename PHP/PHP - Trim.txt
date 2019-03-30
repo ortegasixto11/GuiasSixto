@@ -1,5 +1,0 @@
-
-## PHP Trim
-
-  -- Elimina espacios en blanco y saltos de linea en toda la cadena
-  echo trim($value);
