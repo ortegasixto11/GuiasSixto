@@ -1,5 +1,5 @@
 
-## PHP Get, Post, Request
+  ## PHP Get, Post, Request
 
   -- Obtiene los valores enviados por el método GET desde un formulario
   echo $_GET['username'];
