@@ -13,3 +13,5 @@
   {
     # Code Here!
   }
+  
+  throw new Exception("Err");
