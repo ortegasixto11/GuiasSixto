@@ -13,7 +13,7 @@
 	}
 	
 	-- Getter
-	public String getString(){
+	public String getMyString(){
 	  return myString;
 	}
 	
