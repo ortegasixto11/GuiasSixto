@@ -9,14 +9,14 @@
   ft.format(date);
   
   -- Codes
-  y => 2001
+  y => 2001 (Year)
   M => July or 07
   d => 12 (Day in month)
   h => 12 (Hour format 12)
   H => 20 (Hour format 24)
-  m => 30 (Minute)
-  s => 55 (Second)
-  S => 234 (Millisecond)
+  m => 30 (Minutes)
+  s => 55 (Seconds)
+  S => 234 (Milliseconds)
   E => Tuesday (Day in Week)
   D => 360 (Day in Year)
   w => 40 (Week in Year)
