@@ -1,14 +1,14 @@
 
-## PHP Math
-
-  -- Redondea hacia arriba un número decimal
-  echo ceil($value);
-
-  -- Redondea hacia abajo un número decimal
-  echo floor($value);
-
-  -- Redondea un número no entero a su valor mas cercano
-  echo round($value);
-
-  -- Genera un número random entre los valores pasados
-  echo rand(min, max);
+  ## Math
+  
+  -- Valor Absoluto -8 => 8
+  abs($value);
+  
+  -- Devuelve el valor redondeando hacia arriba 7.03 => 8, -7.6 => -7
+  ceil($value);
+  
+  -- Devuelve el valor redondeando hacia abajo 7.03 => 7, -7.6 => -8
+  floor($value);
+  
+  -- Redondear
+  round($value, decimals)
