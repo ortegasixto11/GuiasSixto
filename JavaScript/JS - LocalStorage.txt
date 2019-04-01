@@ -1,26 +1,19 @@
 
   ## LocalStorage
-  -- Permite guardar informacion del lado del cliente
-
   
-  // Verificar si el navegador es compatible
+  -- Verificar si el navegador es compatible
   if(typeof(Storage) !== 'undefined'){ }
 
 
-  // Guardar datos
+  -- Setting Values
   localStorage.setItem(key, value);
   localStorage.setItem("nombre", "Sixto");
 
-
-  // Obtener datos
+  -- Getting Values
   localStorage.getItem(key);
   localStorage.getItem("nombre");
 
-
-  // Eliminar datos
+  -- Deleting Values
   localStorage.removeItem(key);
   localStorage.removeItem("nombre");
-
-
-  // Limpiar todo el localStorage
   localStorage.clear();
