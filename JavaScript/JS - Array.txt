@@ -1,0 +1,28 @@
+
+  ## Array
+  
+  -- Initialization
+  let arr = [1, 2, 3];
+  
+  -- Setting Values
+  arr.push(4, 5, 6);
+  
+  -- Getting Values
+  arr[2];
+  
+  -- Deleting Values
+  arr.pop(); // Remove end element
+  arr.shift(); // Remove beginning element
+  arr.splice(index, cant); // Remove element from index
+  
+  -- Length
+  arr.length;
+  
+  -- Filter 
+  arr.filter(num => num < 3);
+  
+  -- Map
+  arr.map(num => num * 2);
+  
+  -- ForEach
+  arr.map((num, index) => console.log(index))
