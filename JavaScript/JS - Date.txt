@@ -1,17 +1,15 @@
 
-  ## Fechas en JavaScript
+  ## Date
 
-  // Creando una Fecha
-  var fecha = new Date();
+  -- Initialization
+  let date = new Date();
 
-  // Objeto Date()
+  -- Example
   Date();
   Date(milliseconds);
   Date(year, month, day, hours, minutes, seconds, milliseconds);
-  Date(date string);
 
-  // Metodos del objeto Date()
-
+  -- Method
   getFullYear();      // Get the year as a four digit number (yyyy)
   getMonth();         // Get the month as a number (0-11)
   getDate();          // Get the day as a number (1-31)
