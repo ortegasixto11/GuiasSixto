@@ -1,5 +1,0 @@
-  
-  ## Agregar eventos a elementos HTML
-  
-  addEventListener("event", callback)
-  document.getElementById("demo").addEventListener("click", function(){})

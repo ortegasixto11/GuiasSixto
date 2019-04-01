@@ -1,6 +1,0 @@
-
-  ## Convierte todas la letras a minusculas
-
-  Example
-  var text1 = "Hello World!";       // String
-  var text2 = text1.toLowerCase();  // text2 is text1 converted to lower

@@ -1,9 +1,0 @@
-
-// Retorna el tipo de variable
-
-typeof('sixto')    // string
-typeof(305)        // number
-typeof(305.25)     // number
-typeof(-15)        // number
-typeof(sixto)      // undefined - La variable sixto no esta declarada
-typeof(true)       // boolean

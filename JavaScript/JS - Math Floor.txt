@@ -1,4 +1,0 @@
-
-  ## Retorna el valor redondeando siempre por debajo
-
-  Math.floor(4.7);  // returns 4

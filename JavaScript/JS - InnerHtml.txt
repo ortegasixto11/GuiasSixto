@@ -1,3 +1,0 @@
-
-  ## Modificar elementos del DOM
-  document.getElementById("demo").innerHTML = "Hello JavaScript";

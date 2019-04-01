@@ -1,5 +1,0 @@
-
-  ## Manipular propiedades CSS
-  document.getElementById("element").style.propierty = value;
-
-  document.getElementById("element").style.fontSize = "25px";
