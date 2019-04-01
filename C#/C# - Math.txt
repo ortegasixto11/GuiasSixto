@@ -1,0 +1,14 @@
+
+  ## Math
+  
+  -- Valor Absoluto -8 => 8
+  Math.Abs(value);
+  
+  -- Devuelve el valor redondeando hacia arriba 7.03 => 8, -7.6 => -7
+  Math.Ceiling(value);
+  
+  -- Devuelve el valor integral mas grande 7.03 => 7, -7.6 => -8
+  Math.Floor(value);
+  
+  -- Redondear
+  Math.Round(value, decimals)
