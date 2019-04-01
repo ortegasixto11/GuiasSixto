@@ -1,0 +1,18 @@
+
+  ## Try Catch
+  
+  try
+  {
+    # Code Here!
+  }
+  catch (ex)
+  {
+    # Code Here!
+	ex.description
+  }
+  finally
+  {
+    # Code Here!
+  }
+  
+  throw("My Error");
