@@ -1,0 +1,20 @@
+
+  ## DataTypes
+
+  -- Constant
+   var MY_CONS = 57;
+
+  -- String
+   var my_string = "";
+
+  -- Integer
+   var my_int= 95;
+
+  -- Float
+   var my_float = 12.5;
+
+  -- Boolean
+   var my_boolean = true;
+
+  -- Array
+   var my_array = ['uno', 'dos', 'tres'];
