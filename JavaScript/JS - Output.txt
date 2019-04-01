@@ -1,15 +1,8 @@
 
-  ## Mostrar datos de diferentes maneras en JavaScript
-  
-  // Dentro de un elemento HTML
+  ## Output
+
+  -- Examples
   document.getElementById("demo").innerHTML = "Hello Sixto";
-
-  // Fuera del HTML
   document.write("Hello Sixto");
-
-  // Alerta del navegador
   window.alert("Hello Sixto");
-
-  // Consola del navegador
   console.log("Hello Sixto");
-   
