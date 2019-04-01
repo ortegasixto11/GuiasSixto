@@ -1,10 +1,10 @@
 
-  ## Objetos en JavaScript
+  ## Objects
   
-  // Syntax
+  -- Initialization
   const myObjet = { prop: value, prop: function()  }
 
-  // Example
+  -- Example
   const persona = { 
     nombre: "Sixto", 
     apellido: "Ortega", 
@@ -14,11 +14,10 @@
     }
   }
 
-  // Accesar a sus propiedades
+  -- Accesar a sus propiedades
   persona.nombre;     // Sixto
-  persona["nombre"];  // Sixto
 
-  // Tambien podemos accesar a sus metodos
+  -- Tambien podemos accesar a sus metodos
   persona.nombreCompleto();  // Sixto, Ortega
 
 
