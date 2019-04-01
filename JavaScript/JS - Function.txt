@@ -1,0 +1,9 @@
+
+  ## Function
+  
+  function myFunc(){
+    # Code Here!
+  }
+  
+  -- Example
+  myFunc();
