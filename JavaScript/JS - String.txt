@@ -1,0 +1,14 @@
+
+  ## String
+
+  -- Examples
+  let name = "Sixto";
+  
+  -- Length
+  name.length;
+  
+  -- Uppercase
+  name.toUpperCase();
+  
+  -- Lowercase
+  name.toLowerCase();
