@@ -26,3 +26,7 @@
   
   -- ForEach
   arr.map((num, index) => console.log(index))
+  
+  -- Reduce == Acumulador
+  arr.reduce((a, b) => a + b)
+  
