@@ -1,0 +1,22 @@
+
+  ## DataTypes
+  
+  -- Numeric
+  val x : Int
+  val x : Long
+  
+  -- Floating Point
+  val x : Float
+  val x : Double
+  
+  -- High Precision Decimal
+  val x : BigDecimal
+  
+  -- Boolean
+  val x : Boolean
+  
+  -- String
+  val x : String
+  
+  -- Date
+  Date
