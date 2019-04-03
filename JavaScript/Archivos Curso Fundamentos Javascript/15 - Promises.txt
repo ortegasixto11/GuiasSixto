@@ -1,7 +1,0 @@
-Las Promesas son objetos y están asociadas con alguna tarea asincrónica.
-Existen tres estados internos de las Promesas:
-Pending
-Fullfiled
-Rejected
-El constructor Promise tiene dos parámetros:
-const promise = newPromise(function (resolve, reject) {     )}  //Promise es un constructor que recibe una función con dos argumentos.

@@ -1,6 +1,0 @@
-En JavaScript tenemos varias formas para crear objetos, ahora vamos a crear un nuevo constructor del objeto punto
-const Punto = {    init: functioninit(x,y) {      this.x = x      this.y = y        },    
-moverEnX: functionmoverEnX(x) {      this.x += x    },    
-moverEnY: functionmoverEnY(y) {      this.y += y    }  }    
-
-const p1 = Object.create(Punto)  p1.init(0,4) 

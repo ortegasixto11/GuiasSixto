@@ -1,7 +1,0 @@
-JavaScript nos permite ejecutar cierto código una cantidad de veces definida, por ejemplo podemos recorrer un array con un ciclo:
-const dias = ['lunes','martes','miércoles','jueves','sábado','domingo']    for (let i=0; i < dias.length; i++) {    console.log('dia: ', dias[i])  }   
-
-La construcción de for tiene tres valores
-El iterador
-La condición
-Cómo cambia el iterador

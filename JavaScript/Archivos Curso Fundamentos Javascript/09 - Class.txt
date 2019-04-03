@@ -1,8 +1,0 @@
-Una funcionalidad agregada en EcmaScript 2015, es poder escribir el constructor de los objetos con el keyword class, 
-podemos definir nuestro constructor Punto como
-
-classPunto{    constructor(x,y) {      this.x = x      this.y = y    }    
-moverEnX(x) {      this.x += x    }    
-moverEnY(y) {      this.y += y  }    
-
-const p1 = new Punto(0,4)  const p2 = new Punto(3,0)
