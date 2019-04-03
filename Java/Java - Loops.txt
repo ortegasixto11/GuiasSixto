@@ -2,26 +2,21 @@
   ## Loops
   
   -- For
-  for (variable initialization; condition; steps)
-  {
+  for (variable initialization; condition; steps) {
     # Code Here!
   }
   
   -- For Enhanced 
-  for (variable declaration : expression)
-  {
+  for (variable declaration : collection) {
     # Code Here!
   }
   
   -- While
-  while (boolean expression)
-  {
+  while (boolean expression) {
     # Code Here!
   }
   
   -- Do While
-  do 
-  {
+  do {
     # Code Here!
-  }
-  while (boolean expression);
+  } while (boolean expression);
