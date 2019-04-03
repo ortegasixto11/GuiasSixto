@@ -5,5 +5,10 @@
     # Code Here!
   }
   
+  -- Default Parameters
+  function myFunc(height = 50, color = 'red'){
+    # Code Here!
+  }
+  
   -- Example
   myFunc();
