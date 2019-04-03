@@ -1,0 +1,17 @@
+
+  ## Loops
+  
+  -- For
+  for (variable declaration in collection){
+    # Code Here!
+  }
+  
+  -- While
+  while (boolean expression){
+    # Code Here!
+  }
+  
+  -- Do While
+  do {
+    # Code Here!
+  } while (boolean expression);
