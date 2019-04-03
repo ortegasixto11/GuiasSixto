@@ -1,0 +1,17 @@
+
+  ## Enum
+
+  -- Initialization  
+  enum class WeekDays {
+    SUN,
+	MON,
+	TUE,
+	WED,
+	THU,
+	FRI,
+	SAT
+  }
+  
+  -- Example
+  weekDay = WeekDays.SUN;
+  if(weekDay == WeekDays.SUN)
