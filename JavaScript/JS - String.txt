@@ -12,3 +12,12 @@
   
   -- Lowercase
   name.toLowerCase();
+  
+  -- Template Literals
+  `Hola ${name}`
+  
+  -- Multi-line Strings
+  `Hola
+  sixto`
+  
+  
