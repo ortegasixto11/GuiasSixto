@@ -1,0 +1,16 @@
+
+  ## Class
+  
+  class MyClass{
+  
+    constructor(x, y){
+	  this.x = x
+	  this.y = y
+	}
+	
+	
+	
+  }
+  
+  -- Example
+  const p1 = new MyClass(3, 5);
