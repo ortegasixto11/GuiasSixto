@@ -1,0 +1,18 @@
+
+  ## Modules
+  
+  -- Export Module
+  export let port = 3000;
+  export function hello(){};
+  
+  module.exports = {
+    port = 3000,
+	hello = function(){ }
+  }
+  
+  -- Import Module
+  var service = require('module.js');
+  console.log(service.port);
+  
+  import { port, hello } from 'module'
+  console.log(port);
