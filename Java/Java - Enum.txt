@@ -2,8 +2,7 @@
   ## Enum
 
   -- Initialization  
-  enum WeekDays
-  {
+  enum WeekDays {
     SUN,
 	MON,
 	TUE,
