@@ -1,0 +1,11 @@
+
+  ## Casting
+  
+  toString()
+  toBoolean()
+  
+  toInt()
+  toLong()
+  
+  toFloat()
+  toDouble()
