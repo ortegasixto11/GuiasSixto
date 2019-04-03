@@ -13,3 +13,6 @@
   
   -- Length
   count($arr);
+  
+  -- Array to string
+  implode(',', $arr);
