@@ -1,0 +1,16 @@
+
+  ## Function
+  
+  fun myFunc(){
+    # Code Here!
+  }
+  
+  -- Default Parameters
+  fun suma(x : Int = 10) : Int {
+    x + 2
+  }
+  
+  
+  -- Example
+  myFunc()
+  myFunc()
