@@ -1,15 +1,10 @@
 
   ## Try Catch
   
-  try
-  {
+  try {
     # Code Here!
-  }
-  catch (ExceptionName  ex)
-  {
+  } catch (ExceptionName  ex) {
     # Code Here!
-  }
-  finally
-  {
+  } finally {
     # Code Here!
   }
