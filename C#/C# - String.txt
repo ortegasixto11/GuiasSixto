@@ -1,5 +1,21 @@
 
   ## String
   
+  -- Examples
+  string name = "Sixto";
+  
+  -- Length
+  name.Length;
+  
+  -- Uppercase
+  name.ToUpper();
+  
+  -- Lowercase
+  name.ToLower();
+  
   -- String Interpolation - String Literals
-  $"My lucky number is {7}";
+  $"Hello {name}";
+  
+  -- Multi-line Strings
+  @"Hola
+  Sixto"
