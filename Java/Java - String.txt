@@ -1,6 +1,18 @@
 
   ## String
   
+  -- Examples
+  String name = "Sixto";
+  
+  -- Length
+  name.length();
+  
+  -- Uppercase
+  name.toUpperCase();
+  
+  -- Lowercase
+  name.toLowerCase();
+  
   -- String Interpolation, String Literals
   System.out.printf("Float value %f", floatVar);
   System.out.printf("Integer value %d", intVar);
