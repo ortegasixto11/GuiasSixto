@@ -30,3 +30,5 @@
   -- Reduce == Acumulador
   arr.reduce((a, b) => a + b)
   
+  -- Array to string
+  arr.join(",");
