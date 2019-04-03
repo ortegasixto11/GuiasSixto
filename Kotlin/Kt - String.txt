@@ -1,0 +1,24 @@
+
+  ## String
+
+  -- Examples
+  val name : String = "Sixto";
+  
+  -- Length
+  name.length;
+  
+  -- Uppercase
+  name.toUpperCase();
+  
+  -- Lowercase
+  name.toLowerCase();
+  
+  -- Expressions
+  "Hola ${name.length}"
+  
+  -- Template Literals
+  "Hola $name"
+  
+  -- Multi-line Strings
+  """Hola
+  sixto"""
