@@ -1,0 +1,26 @@
+
+  ## Class
+  
+  public Class MyClass() {
+  
+    -- Variables
+    val myString : String
+	val myInt : Int
+	
+	-- Setter & Getter
+	val myString: String 
+	  get() = this.toString()
+	  set(value) setDataFromString(value) 
+	
+	-- Method
+	public fun myMethod(){
+	  # Code Here!
+	}
+	
+  }
+  
+  -- Example
+  val obj = MyClass()
+  obj.myString = "valor"
+  obj.myInt = 25
+  obj.myMethod()
