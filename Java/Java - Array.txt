@@ -14,3 +14,6 @@
   
   -- Length
   intArray.length;
+  
+  -- Array to string
+  string.Join(",", intArray);
