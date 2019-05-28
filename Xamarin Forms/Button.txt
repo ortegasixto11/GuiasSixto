@@ -1,1 +1,21 @@
-Button
+
+  ## Button
+  
+  <Button x:Name="IdBoton" />
+  
+  -- Propierties
+  TextColor
+  BackgroundColor
+  BorderColor
+  BorderWidth
+  CornerRadius
+  WidthRequest
+  HeightRequest
+  
+  -- Events
+  Clicked="OnFunctionName"
+  Pressed=""
+  Released=""
+  
+  -- Code Behind
+  void OnFunctionName(object sender, EventArgs e){  }
