@@ -1,0 +1,92 @@
+@page
+@model FRANQUICIES_DISSENY.Pages.EntidadesPage.ListaSeleccionModel
+@{
+    ViewData["Title"] = "Seleccionar Entidad";
+    ViewData["SideBarMenuEntidades"] = "active";
+}
+
+<br />
+<p>
+    <a onclick="location.href='./@Model.RedireccionarA?Id=@Model.EntidadId&EntidadPadreId=@Model.EntidadPadreId&KeepListAlive=true&EsSupervisora=true'" class="btn btn-primary">
+        <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>&nbsp; Regresar
+    </a>
+</p>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading"> <h4><b>Entidades</b></h4> </div>
+            <div class="panel-body">
+
+                <form name="formSelectClientes" method="post"></form>
+                <button id="btn-select-clientes" class="btn btn-success">Aceptar</button>
+
+                <table class="table table-hover" id="table-assign-user">
+                    <thead>
+                        <tr>
+                            <th class="hidden"> @Html.DisplayNameFor(model => model.ListaEntidades[0].Id) </th>
+                            <th> @Html.DisplayNameFor(model => model.ListaEntidades[0].Nombre) </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.ListaEntidades.OrderBy(x => x.Nombre))
+                        {
+                            @*<tr style="cursor:pointer;" onclick="location.href = './@Model.RedireccionarA?Id=@Model.EntidadId&KeepListAlive=true&EsSupervisora=true&EntidadSelectId=@item.Id'">
+                                <td> @Html.DisplayFor(modelItem => item.Nombre) </td>
+                            </tr>*@
+
+                            <tr style="cursor:pointer;">
+                                <td class="hidden"> @Html.DisplayFor(modelItem => item.Id) </td>
+                                <td> @Html.DisplayFor(modelItem => item.Nombre) </td>
+                                <td> <input id="@item.Id" type="checkbox" /> </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $("#table-assign-user tbody tr").click(function () {
+            if ($(this).hasClass("row-selected")) {
+                $(this).removeClass('row-selected')
+                var row = $(this).find('td')
+                if ($("#" + row[0].innerText.trim()).is(":checked")) {
+                    $("#" + row[0].innerText.trim()).attr('checked', false);
+                    $("#" + row[0].innerText.trim()).prop('checked', false);
+                    $("#" + row[0].innerText.trim()).removeAttr('checked');  
+                }
+
+            } else {
+                $(this).addClass('row-selected')
+                var row = $(this).find('td')
+                if (!$("#" + row[0].innerText.trim()).is(":checked")) {
+                    $("#" + row[0].innerText.trim()).attr('checked', true);
+                    $("#" + row[0].innerText.trim()).prop('checked', true);
+                }
+            }
+        })
+
+        $("#btn-select-clientes").click(function () {
+            var id_clientes = $("#table-assign-user tbody tr.row-selected").find("td.hidden")
+            var lista_clientes = ""
+            for (var i = 0; i < id_clientes.length; i++) {
+                lista_clientes += id_clientes[i].innerText.trim() + ","
+            }
+
+            if (lista_clientes.length < 1) {
+                alert("Debe seleccionar al menos un Cliente")
+            } else {
+                var x = document.formSelectClientes.action = location.protocol + "//" + location.host + "/Entidades/@Model.RedireccionarA?handler=SelectClientes&Id=@Model.EntidadId&ClientesSelectId=" + lista_clientes;
+                document.formSelectClientes.submit();
+            }
+
+            
+        })
+
+    })
+</script>
