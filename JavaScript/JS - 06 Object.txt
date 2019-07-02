@@ -10,14 +10,12 @@
     apellido: "Ortega", 
     edad: 22,
     nombreCompleto: function(){
-      return this.nombre + ", " + this.apellido;
+      return this.nombre + ", " + this.apellido
     }
   }
 
-  -- Accesar a sus propiedades
-  persona.nombre;     // Sixto
+  -- Access Propierties
+  persona.nombre
 
-  -- Tambien podemos accesar a sus metodos
-  persona.nombreCompleto();  // Sixto, Ortega
-
-
+  -- Access Methods
+  persona.nombreCompleto()
