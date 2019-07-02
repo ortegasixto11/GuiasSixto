@@ -3,13 +3,11 @@
   
   -- If
   if (condition){
-    # Code Here!
-  }
-  else if (condition){
-    # Code Here!
-  }
-  else {
-    # Code Here!
+    // code
+  } else if (condition){
+    // code
+  } else {
+    // code
   }
   
   
@@ -27,3 +25,4 @@
 	# Code Here!
 	break;
   }
+  
