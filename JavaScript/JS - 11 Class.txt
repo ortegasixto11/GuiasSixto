@@ -1,0 +1,15 @@
+
+  ## Class
+  
+  class MyClass{
+  
+    constructor(a, b, c){
+	  this.propA = a
+	  this.propB = b
+	  this.propC = c
+	}
+	
+  }
+  
+  -- Example
+  const p1 = new MyClass("Letra A", "Letra B", "Letra C")
