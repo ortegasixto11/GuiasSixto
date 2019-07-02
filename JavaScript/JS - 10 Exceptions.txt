@@ -1,0 +1,11 @@
+
+  ## Exceptions
+  
+  try {
+    // code
+  } catch (ex) {
+	throw("My Error" + ex.description)
+  } finally {
+    // code
+  }
+  
