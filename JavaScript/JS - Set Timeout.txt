@@ -1,5 +1,0 @@
-
-  ## Set Timeout
-
-  // Ejecuta una funcion despues de esperar un numero especifico de milisegundos
-  setTimeout(callback, milisegundos)

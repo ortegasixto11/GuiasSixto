@@ -1,5 +1,0 @@
-
-  ## Casting
-  
-  parseInt(value);
-  parseFloat(value);

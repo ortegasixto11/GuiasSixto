@@ -1,8 +1,0 @@
-
-  ## Output
-
-  -- Examples
-  document.getElementById("demo").innerHTML = "Hello Sixto";
-  document.write("Hello Sixto");
-  window.alert("Hello Sixto");
-  console.log("Hello Sixto");
