@@ -1,0 +1,13 @@
+
+  ## Loops
+  
+  -- For
+  for (variable initialization; condition; steps){
+    // code
+  }
+  
+  -- While
+  while (boolean expression){
+    // code
+  }
+  
