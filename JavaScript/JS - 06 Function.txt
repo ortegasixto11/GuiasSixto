@@ -1,0 +1,10 @@
+
+  ## Function
+  
+  function myFunc(){
+    // code
+  }
+  
+  -- Example
+  myFunc()
+  
