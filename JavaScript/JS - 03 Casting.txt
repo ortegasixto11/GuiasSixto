@@ -1,0 +1,7 @@
+
+  ## Casting
+
+  toString()
+  parseInt()
+  parseFloat()
+  
