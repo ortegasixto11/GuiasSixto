@@ -1,0 +1,18 @@
+
+  ## Data Types
+  
+  -- Constant
+   const MY_CONS = 57
+
+  -- String
+   let my_string = ""
+
+  -- Integer
+   let my_int= 95
+
+  -- Float
+   let my_float = 12.5
+
+  -- Boolean
+   let my_boolean = true
+  
