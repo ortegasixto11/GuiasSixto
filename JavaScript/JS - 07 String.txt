@@ -2,16 +2,16 @@
   ## String
 
   -- Examples
-  let name = "Sixto";
+  let name = "Sixto"
   
   -- Length
-  name.length;
+  name.length
   
   -- Uppercase
-  name.toUpperCase();
+  name.toUpperCase()
   
   -- Lowercase
-  name.toLowerCase();
+  name.toLowerCase()
   
   -- Template Literals
   `Hola ${name}`
@@ -19,3 +19,4 @@
   -- Multi-line Strings
   `Hola
   sixto`
+  
